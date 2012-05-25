@@ -1,0 +1,714 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="flood_test.qgs (offline)" version="1.8.0-Lisboa">
+    <title>flood_test.qgs (offline)</title>
+    <mapcanvas>
+        <units>degrees</units>
+        <extent>
+            <xmin>106.683477</xmin>
+            <ymin>-6.300656</ymin>
+            <xmax>106.939287</xmax>
+            <ymax>-6.130182</ymax>
+        </extent>
+        <projections>1</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                <srsid>3452</srsid>
+                <srid>4326</srid>
+                <authid>EPSG:4326</authid>
+                <description>WGS 84</description>
+                <projectionacronym>longlat</projectionacronym>
+                <ellipsoidacronym>WGS84</ellipsoidacronym>
+                <geographicflag>true</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+    </mapcanvas>
+    <legend updateDrawingOrder="true">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Banjir Jakarta Mungkin" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Flood_Design_Depth_Jakarta_geographic20120128131551671" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Banjir Jakarta seperti 2007" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Flood_Current_Depth_Jakarta_geographic20120127163320152" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Penduduk Jakarta" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Population_Jakarta_geographic20120127163320383" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Penduduk Jakarta UTM48N" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Population_Jakarta_UTM48N20120312113302265" visible="1"/>
+            </filegroup>
+        </legendlayer>
+    </legend>
+    <Composer title="Composer 1" visible="0">
+        <ComposerLabel valign="32" labelText="Apabila terjadi &quot;Banjir Jakarta Mungkin&quot; perkiraan dampak terhadap &quot;Penduduk Jakarta&quot; kemungkinan yang terjadi:&#xa;Terdampak (x 1000):&#xa;991&#xa;&#xa;CATATAN:&#xa;Jumlah penduduk Jakarta 247064&#xa;Jumlah dalam ribuan&#xa;Penduduk dianggap terdampak ketika banjir lebih dari 0.1 m." halign="1" margin="1">
+            <LabelFont description="Verdana,10,-1,5,50,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="63.76126126126127" x="38.25675675675675" y="237.259009009009" rotation="0" height="54.36486486486486" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="2.979865771812081" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
+        <ComposerLabel valign="128" labelText="PENDUDUK YANG MUNGKIN DIEVAKUASI" halign="4" margin="1">
+            <LabelFont description="Verdana,20,-1,5,75,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="187.9221129080429" x="6.717526731596706" y="224.1731301205772" rotation="0" height="12.41470771726065" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.979865771812081" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
+        <ComposerLabel valign="32" labelText="S.A.F.E - Scenario Assement For Emergencies" halign="2" margin="1">
+            <LabelFont description="Verdana,14,-1,5,75,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="131.4120267260579" x="67.08990950861775" y="15.26575071730974" rotation="0" height="9.29175946547884" frame="false" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="2.979865771812081" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
+        <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+            <Extent ymin="-6.354052907703482" xmin="106.692895" ymax="-6.079333907703478" xmax="106.967614"/>
+            <LayerSet/>
+            <Grid gridStyle="1" crossLength="3" penColorRed="170" penColorBlue="170" intervalX="0.025" offsetX="0" intervalY="0.025" offsetY="0" show="1" penWidth="0" penColorGreen="170">
+                <Annotation direction="3" precision="2" position="1" frameDistance="1" show="1" font="Verdana,8,-1,5,50,0,0,0,0,0"/>
+            </Grid>
+            <ComposerItem width="183.611" x="12.18899548964345" y="35.69739407886743" rotation="0" height="183.611" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="5.664429530201343" id="" positionLock="false">
+                <FrameColor alpha="255" red="204" blue="204" green="204"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerMap>
+        <ComposerArrow startMarkerFile="" arrowHeadWidth="4" endMarkerFile="" outlineWidth="1" markerMode="0">
+            <ArrowColor alpha="255" red="0" blue="0" green="0"/>
+            <StartPoint x="37.77962085308057" y="140.5260663507109"/>
+            <StopPoint x="37.77962085308057" y="140.5260663507109"/>
+            <ComposerItem width="5" x="35.27962085308057" y="138.0260663507109" rotation="0" height="5" frame="true" outlineWidth="0" zValue="10" lastValidViewScaleFactor="2.832214765100671" id="" positionLock="false">
+                <FrameColor alpha="0" red="255" blue="255" green="255"/>
+                <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerArrow>
+        <ComposerArrow startMarkerFile="" arrowHeadWidth="0" endMarkerFile="" outlineWidth="1" markerMode="0">
+            <ArrowColor alpha="255" red="0" blue="0" green="0"/>
+            <StartPoint x="72.38151658767772" y="6.355450236966824"/>
+            <StopPoint x="152.1777251184834" y="6.002369668246446"/>
+            <ComposerItem width="80.79620853080569" x="71.88151658767772" y="5.502369668246446" rotation="0" height="1.353080568720379" frame="true" outlineWidth="0" zValue="11" lastValidViewScaleFactor="2.832214765100671" id="" positionLock="false">
+                <FrameColor alpha="0" red="255" blue="255" green="255"/>
+                <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerArrow>
+        <ComposerScaleBar segmentMillimeters="0" numMapUnitsPerScaleBarUnit="1" numSegments="2" height="5" alignment="0" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" style="Numeric" unitLabel="" font="Verdana,12,-1,5,50,0,0,0,0,0" mapId="0" boxContentSpace="1" numUnitsPerSegment="0">
+            <BrushColor red="0" blue="0" green="0"/>
+            <ComposerItem width="24" x="9.973273942093499" y="212.0601336302896" rotation="0" height="6.3" frame="false" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="3.013422818791947" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerScaleBar>
+        <ComposerShape shapeType="1" shapeWidth="48.72511848341232" outlineWidth="1" transparentFill="1" shapeHeight="0">
+            <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+            <FillColor alpha="255" red="0" blue="0" green="0"/>
+            <ComposerItem width="48.72511848341232" x="126.0497630331754" y="278.2274881516587" rotation="0" height="0" frame="true" outlineWidth="0" zValue="12" lastValidViewScaleFactor="5.664429530201343" id="" positionLock="false">
+                <FrameColor alpha="0" red="255" blue="255" green="255"/>
+                <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerShape>
+        <ComposerShape shapeType="1" shapeWidth="0.5296208530805728" outlineWidth="1" transparentFill="1" shapeHeight="16.41824644549763">
+            <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+            <FillColor alpha="255" red="0" blue="0" green="0"/>
+            <ComposerItem width="0.5296208530805728" x="126.4609004739336" y="262.6919431279621" rotation="0" height="16.41824644549763" frame="true" outlineWidth="0" zValue="13" lastValidViewScaleFactor="5.664429530201343" id="" positionLock="false">
+                <FrameColor alpha="0" red="255" blue="255" green="255"/>
+                <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerShape>
+        <ComposerPicture pictureWidth="48.78173719376392" file="/tmp/legend.png" pictureHeight="58.07349665924269" mapId="-1">
+            <ComposerItem width="48.78173719376392" x="9.623608017817372" y="237.9220489977728" rotation="0" height="58.07349665924269" frame="false" outlineWidth="0.3" zValue="7" lastValidViewScaleFactor="2.979865771812081" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerPicture>
+        <ComposerPicture pictureWidth="15.38089514632327" file="../risk_in_a_box/gui/resources/img/bnpb_logo.png" pictureHeight="16.69103140861515" mapId="-1">
+            <ComposerItem width="15.38089514632327" x="9.507746279066481" y="12.17979264483697" rotation="0" height="16.69103140861515" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="3.013422818791947" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerPicture>
+        <ComposerAttributeTable contentFont="Verdana,10,-1,5,50,0,0,0,0,0" gridStrokeWidth="0.5" gridColorGreen="0" composerMap="0" showGrid="0" headerFont="Verdana,10,-1,5,50,0,0,0,0,0" gridColorBlue="0" lineTextDist="1" gridColorRed="0" showOnlyVisibleFeatures="1">
+            <displayAttributes>
+                <attributeEntry index="2"/>
+                <attributeEntry index="4"/>
+                <attributeEntry index="6"/>
+                <attributeEntry index="8"/>
+            </displayAttributes>
+            <attributeAliasMap/>
+            <sortColumns/>
+            <ComposerItem width="75.5" x="119.804054054054" y="238.6013513513513" rotation="0" height="12.7" frame="false" outlineWidth="0.3" zValue="9" lastValidViewScaleFactor="0.697986577181208" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerAttributeTable>
+        <Composition printResolution="150" paperWidth="210" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="297" printAsRaster="0"/>
+    </Composer>
+    <projectlayers layercount="4">
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>Flood_Current_Depth_Jakarta_geographic20120127163320152</id>
+            <datasource>./Flood_Current_Depth_Jakarta_geographic.asc</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Banjir Jakarta seperti 2007</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandPseudoColor</mDrawingStyle>
+                <mColorShadingAlgorithm>PseudoColorShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>-3.40282e+38</min>
+                        <max>3.40282e+38</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-9999.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-9999.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-9999.000000" blue="-9999.000000" green="-9999.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>Flood_Design_Depth_Jakarta_geographic20120128131551671</id>
+            <datasource>./Flood_Design_Depth_Jakarta_geographic.asc</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Banjir Jakarta Mungkin</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandPseudoColor</mDrawingStyle>
+                <mColorShadingAlgorithm>PseudoColorShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>15.7002</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-9999.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-9999.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-9999.000000" blue="-9999.000000" green="-9999.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>Population_Jakarta_UTM48N20120312113302265</id>
+            <datasource>./Population_Jakarta_UTM48N.tif</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Penduduk Jakarta UTM48N</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=48 +datum=WGS84 +units=m +no_defs</proj4>
+                    <srsid>3132</srsid>
+                    <srid>32648</srid>
+                    <authid>EPSG:32648</authid>
+                    <description>WGS 84 / UTM zone 48N</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>140</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandPseudoColor</mDrawingStyle>
+                <mColorShadingAlgorithm>PseudoColorShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>-3.40282e+38</min>
+                        <max>3.40282e+38</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-9999.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-9999.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-9999.000000" blue="-9999.000000" green="-9999.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>Population_Jakarta_geographic20120127163320383</id>
+            <datasource>./Population_Jakarta_geographic.asc</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Penduduk Jakarta</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>81</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandPseudoColor</mDrawingStyle>
+                <mColorShadingAlgorithm>PseudoColorShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>-3.40282e+38</min>
+                        <max>3.40282e+38</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-9999.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="1.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="2.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="3.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="4.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="5.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="6.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="7.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="8.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="9.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="10.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="11.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="12.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="13.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="14.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="15.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="16.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="17.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="18.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="19.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="20.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="21.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="22.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="23.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="24.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="25.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="26.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="27.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="28.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="29.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="30.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="31.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="32.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="33.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="34.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="35.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="36.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="37.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="38.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="39.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="40.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="41.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="42.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="43.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="44.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="45.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="46.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="47.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="48.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="49.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="50.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="51.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="52.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="53.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="54.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="55.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="56.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="57.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="58.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="59.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="60.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="61.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="62.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="63.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="64.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="65.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="66.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="67.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="68.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="69.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="70.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="71.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="72.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="73.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="74.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="75.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="76.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="77.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="78.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="79.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="80.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="81.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="82.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="83.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="84.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="85.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="86.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="87.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="88.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="89.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="90.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="91.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="92.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="93.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="94.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="95.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="96.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="97.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="98.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="99.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="100.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="101.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="102.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="103.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="104.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="105.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="106.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="107.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="108.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="109.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="110.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="111.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="112.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="113.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="114.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="115.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="116.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="117.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="118.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="119.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="120.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="121.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="122.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="123.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="124.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="125.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="126.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="127.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="128.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="129.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="130.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="131.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="132.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="133.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="134.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="135.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="136.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="137.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="138.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="139.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="140.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="141.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="142.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="143.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="144.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="145.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="146.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="147.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="148.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="149.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="150.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="151.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="152.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="153.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="154.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="155.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="156.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="157.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="158.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="159.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="160.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="161.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="162.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="163.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="164.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="165.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="166.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="167.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="168.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="169.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="170.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="171.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="172.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="173.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="174.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="175.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="176.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="177.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="178.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="179.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="180.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="181.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="182.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="183.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="184.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="185.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="186.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="187.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="188.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="189.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="190.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="191.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="192.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="193.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="194.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="195.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="196.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="197.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="198.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="199.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="200.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="201.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="202.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="203.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="204.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="205.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="206.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="207.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="208.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="209.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="210.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="211.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="212.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="213.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="214.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="215.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="216.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="217.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="218.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="219.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="220.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="221.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="222.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="223.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="224.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="225.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="226.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="227.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="228.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="229.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="230.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="231.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="232.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="233.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="234.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="235.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="236.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="237.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="238.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="239.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="240.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="241.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="242.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="243.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="244.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="245.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="246.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="247.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="248.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="249.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="250.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="251.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="252.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="253.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="254.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="255.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="256.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="257.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="258.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="259.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="260.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="261.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="262.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="263.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="264.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="265.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="266.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="267.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="268.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="269.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="270.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="271.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="272.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="273.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="274.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="275.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="276.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="277.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="278.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="279.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="280.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="281.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="282.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="283.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="284.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="285.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="286.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="287.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="288.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="289.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="290.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="291.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="292.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="293.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="294.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="295.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="296.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="297.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="298.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="299.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="300.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="301.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="302.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="303.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="304.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="305.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="306.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="307.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="308.000000" percentTransparent="100"/>
+                    <pixelListEntry pixelValue="309.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-9999.000000" blue="-9999.000000" green="-9999.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+    </projectlayers>
+    <properties>
+        <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+        <TimeManager>
+            <timeFrameSize type="int">1</timeFrameSize>
+            <timeLayerManager type="QString"></timeLayerManager>
+            <active type="int">1</active>
+            <timeFrameType type="QString">days</timeFrameType>
+            <loopAnimation type="int">0</loopAnimation>
+            <currentMapTimePosition type="int">1332998680</currentMapTimePosition>
+            <animationFrameLength type="int">2000</animationFrameLength>
+            <timeLayerList type="QStringList"/>
+            <playBackwards type="int">0</playBackwards>
+        </TimeManager>
+        <WMSContactPerson type="QString"></WMSContactPerson>
+        <Identify>
+            <disabledLayers type="QStringList"/>
+        </Identify>
+        <WMSContactPhone type="QString"></WMSContactPhone>
+        <SpatialRefSys>
+            <ProjectCRSProj4String type="QString">+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs +towgs84=0,0,0</ProjectCRSProj4String>
+            <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+            <ProjectCRSID type="int">3452</ProjectCRSID>
+            <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+        </SpatialRefSys>
+        <Paths>
+            <Absolute type="bool">false</Absolute>
+        </Paths>
+        <Gui>
+            <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+            <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+            <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+            <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+            <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+            <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+            <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+        </Gui>
+        <OfflineEditingPlugin>
+            <OfflineDbPath type="QString">/tmp/indonesia.sqlite</OfflineDbPath>
+        </OfflineEditingPlugin>
+        <WMSContactMail type="QString"></WMSContactMail>
+        <PositionPrecision>
+            <DecimalPlaces type="int">2</DecimalPlaces>
+            <Automatic type="bool">true</Automatic>
+        </PositionPrecision>
+        <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+        <WMSContactOrganization type="QString"></WMSContactOrganization>
+        <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+        <WMSServiceTitle type="QString"></WMSServiceTitle>
+    </properties>
+</qgis>

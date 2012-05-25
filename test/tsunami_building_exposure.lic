@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Tim Sutton, Linfiniti</author>
+  </metadata>
+
+  <datafile>
+    <filename>tsunami_building_exposure.shp</filename>
+    <checksum>1174526545</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>AIFDR</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>Artificial data generated for test purposes</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>tsunami_building_exposure.shx</filename>
+    <checksum>1448774819</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>AIFDR</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>Artificial data generated for test purposes</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>tsunami_building_exposure.dbf</filename>
+    <checksum>3355561763</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>AIFDR</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>Artificial data generated for test purposes</IP_info>
+  </datafile>
+
+</ga_license_file>

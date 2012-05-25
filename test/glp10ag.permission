@@ -1,0 +1,120 @@
+From: Robert R. Downs [mailto:rdowns@ciesin.columbia.edu]
+Sent: 23 April 2012 11:43 PM
+To: Ole Nielsen
+Cc: Kristy Van Putten; Trevor Dhu; ciesin.info@ciesin.columbia.edu; Bob Chen
+Subject: Re: Seeking permission to include gridded population data for Indonesia in Open Source impact modelling tool. [SEC=UNCLASSIFIED]
+
+
+
+Dear Dr. Nielsen:
+
+I am pleased to see your interest in using the GPWv3 Population Density Grid data for inclusion in the AusAID InaSAFE (Indonesia Scenario Assessment for Emergencies) open source tool for rapid assessment of impact to buildings, infrastructure and population from natural disasters. Please find the formal statement, below, granting your request and let me know if it meets your needs.
+
+Thanks,
+
+Robert R. Downs, PhD
+Senior Digital Archivist and Senior Staff Associate Officer of Research
+Center for International Earth Science Information Network (CIESIN),
+The Earth Institute, Columbia University
+P.O. Box 1000, 61 Route 9W, Palisades, NY 10964 USA
+Voice: 845-365-8985; fax: 845-365-8922
+E-mail: rdowns@ciesin.columbia.edu
+Columbia University CIESIN Web site: http://www.ciesin.columbia.edu
+
+
+April 23, 2012
+
+Dr. Ole Nielsen
+Australia-Indonesia Facility for Disaster Reduction, AusAID
+Menara Thamrin Suite 1505
+Jl. MH. Thamrin Kav. 3,
+Jakarta 10950, Indonesia
+
+
+Dear Dr. Nielsen:
+
+CIESIN, the Center for International Earth Science Information Network at Columbia University, authorizes the Australian government Agency for International Development (AusAID) to use the Data, listed below, to develop and distribute the InaSAFE (Indonesia Scenario Assessment for Emergencies) open source tool for rapid assessment of impact to buildings, infrastructure and population from natural disasters.
+
+Center for International Earth Science Information Network (CIESIN), Columbia University; and Centro Internacional de Agricultura Tropical (CIAT). 2005. Gridded Population of the World Version 3 (GPWv3): Population Density Grid. Palisades, NY: Socioeconomic Data and Applications Center (SEDAC), CIESIN, Columbia University. Available at http://sedac.ciesin.columbia.edu/gpw.
+
+Except as noted above, CIESIN does not assign AusAID any rights to authorize third-party redistribution of the Data. In accepting the Data, AusAID agrees to acknowledge the individual authors and CIESIN at Columbia University as the source of the Data, to display the URL (http://www.ciesin.columbia.edu) for the CIESIN website within the acknowledgement statement, and to provide CIESIN with a copy of any publication that includes the Data. AusAID also agrees to release CIESIN and Columbia University from any liability resulting from any use of the Data by AusAID or by any other parties.
+
+Please feel free to contact us if you have any questions.
+
+Sincerely,
+
+Robert R. Downs, PhD
+
+cc: R. S. Chen
+
+
+-------- Original Message --------
+
+Subject:
+
+
+Seeking permission to include gridded population data for Indonesia in Open Source impact modelling tool. [SEC=UNCLASSIFIED]
+
+Date:
+
+
+Mon, 23 Apr 2012 11:54:18 +0700
+
+From:
+
+
+Ole Nielsen <Ole.Nielsen@ausaid.gov.au>
+
+To:
+
+
+ciesin.info@ciesin.columbia.edu <ciesin.info@ciesin.columbia.edu>
+
+CC:
+
+
+Kristy Van Putten <Kristy.VanPutten@ausaid.gov.au>, Trevor Dhu <Trevor.Dhu@ausaid.gov.au>
+
+
+
+
+Dear Ciesin
+
+
+
+My name is Ole Nielsen and I work for the Australian government agency for international development (AusAID) in Jakarta on an initiative (http://www.aifdr.org) aiming to increase the capacity of the Indonesian Disaster Management Agency (http://www.bnpb.go.id) to manage the consequences of natural disasters in Indonesia. Open Source and freely available data is critical for the sustainability of this work and something we insist on for everything we produce or procure through this program. It is our hope that these products will ultimately help make people of Indonesia be safer from natural disasters through access to better information.
+
+
+
+Part of our program is the development of an Open Source tool for rapid assessment of impact to buildings, infrastructure and population from natural disasters. It is called InaSAFE (Indonesia Scenario Assessment for Emergencies) and is described in more detail in the attached flyer.
+
+InaSAFE is Open Source and many of the datasets it uses are freely available too (e.g. earthquake ground shaking estimates and Open Street Map building data). However, we have not been able to find a gridded population density dataset that can be bundled with the software.
+
+
+
+That said, we are using the CIESIN population dataset glp10ag.asc to assess population being impacted by e.g. earthquake ground shaking and flood levels. However, even though this data is publicly available from http://sedac.ciesin.columbia.edu/gpw/global.jsp (thank you very much) we are aware that we cannot redistribute it without express written permission from CIESIN (e.g. indicated in http://iridl.ldeo.columbia.edu/SOURCES/.CIESIN/.GPWv2/.dataset_documentation.html).
+
+
+
+Being able to include example baseline datasets with the software would greatly help in promoting the tool, testing the software and getting deployments off the ground quickly until more detailed local datasets are made available. For these reasons we seek CIESIN’s permission to distribute a gridded population dataset for Indonesia with the InaSAFE software along with the appropriate references, of course.
+
+
+
+Looking forward to your reply
+
+Ole
+
+
+
+
+
+Dr Ole Nielsen
+
+Numerical Modeller | Australia-Indonesia Facility for Disaster Reduction | AusAID
+Ph +62 21 398 30088 | Fax +62 21 398 30068 | Mobile +62 811 820 4637
+Menara Thamrin Suite 1505
+
+Jl. MH. Thamrin Kav. 3, Jakarta 10950, Indonesia
+www.ausaid.gov.au
+
+

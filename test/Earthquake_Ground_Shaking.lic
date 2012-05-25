@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Ole Nielsen</author>
+  </metadata>
+
+  <datafile>
+    <filename>Earthquake_Ground_Shaking.asc</filename>
+    <checksum>798119884</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>http://www.ebookkedokteran.com/ringkasan-tim-revisi-peta-gempa-indonesia</source>
+    <IP_owner>Tim-9</IP_owner>
+    <IP_info>This earthquake hazard map is part of the national earthquake hazard map produced by Team 9 in 2010</IP_info>
+  </datafile>
+
+</ga_license_file>

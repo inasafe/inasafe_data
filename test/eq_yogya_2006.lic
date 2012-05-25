@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Jonathan Griffin, AIFDR</author>
+  </metadata>
+
+  <datafile>
+    <filename>eq_yogya_2006.asc</filename>
+    <checksum>1891293074</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>USGS</source>
+    <IP_owner>USGS</IP_owner>
+    <IP_info>Shakemaps are publicly available from the USGS website</IP_info>
+  </datafile>
+
+</ga_license_file>

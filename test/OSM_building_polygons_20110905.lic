@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Kristy Van Putten, AIFDR</author>
+  </metadata>
+
+  <datafile>
+    <filename>OSM_building_polygons_20110905.shp</filename>
+    <checksum>2289784400</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>OSM_building_polygons_20110905.shx</filename>
+    <checksum>1309293091</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>OSM_building_polygons_20110905.dbf</filename>
+    <checksum>592129708</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website</IP_info>
+  </datafile>
+
+</ga_license_file>

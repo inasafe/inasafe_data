@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Tim Sutton</author>
+  </metadata>
+
+  <datafile>
+    <filename>test_shakeimpact.shp</filename>
+    <checksum>3397706137</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>AIFDR</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>Small subset derived from Open Street Map and used for test purposes</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>test_shakeimpact.shx</filename>
+    <checksum>1157388226</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>AIFDR</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>Small subset derived from Open Street Map and used for test purposes</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>test_shakeimpact.dbf</filename>
+    <checksum>1613313886</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>AIFDR</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>Small subset derived from Open Street Map and used for test purposes</IP_info>
+  </datafile>
+
+
+</ga_license_file>

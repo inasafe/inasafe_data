@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Ole Nielsen, AIFDR</author>
+  </metadata>
+
+  <datafile>
+    <filename>OSM_subset_centroids.shp</filename>
+    <checksum>409230252</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>OSM_subset_centroids.shx</filename>
+    <checksum>3221027388</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>OSM_subset_centroids.dbf</filename>
+    <checksum>1976943445</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website</IP_info>
+  </datafile>
+
+</ga_license_file>

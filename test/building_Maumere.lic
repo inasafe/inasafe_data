@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Kristy Van Putten, AIFDR</author>
+  </metadata>
+
+  <datafile>
+    <filename>building_Maumere.shp</filename>
+    <checksum>1047684834</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>building_Maumere.shx</filename>
+    <checksum>76112452</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>building_Maumere.dbf</filename>
+    <checksum>125754623</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website</IP_info>
+  </datafile>
+
+</ga_license_file>

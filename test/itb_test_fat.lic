@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Hadi Ghasemi, Geoscience Australia</author>
+  </metadata>
+
+  <datafile>
+    <filename>itb_test_fat.asc</filename>
+    <checksum>4003739066</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>ITB fatality model data</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>Artificial data created at AIFDR for test purposes</IP_info>
+  </datafile>
+
+</ga_license_file>

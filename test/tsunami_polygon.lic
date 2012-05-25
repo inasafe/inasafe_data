@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Kristy Van Putten, AIFDR</author>
+  </metadata>
+
+  <datafile>
+    <filename>tsunami_polygon.shp</filename>
+    <checksum>859671803</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>AIFDR</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>Contours from tsunami scenario created at AIFDR used for test purposes</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>tsunami_polygon.shx</filename>
+    <checksum>586747723</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>AIFDR</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>Contours from tsunami scenario created at AIFDR used for test purposes</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>tsunami_polygon.dbf</filename>
+    <checksum>2779750728</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>AIFDR</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>Contours from tsunami scenario created at AIFDR used for test purposes</IP_info>
+  </datafile>
+
+</ga_license_file>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Ole Nielsen, AIFDR</author>
+  </metadata>
+
+  <datafile>
+    <filename>kecamatan_jakarta_osm.shp</filename>
+    <checksum>1018137341</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>kecamatan_jakarta_osm.shx</filename>
+    <checksum>4098447005</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>kecamatan_jakarta_osm.dbf</filename>
+    <checksum>3171017546</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website</IP_info>
+  </datafile>
+
+</ga_license_file>
