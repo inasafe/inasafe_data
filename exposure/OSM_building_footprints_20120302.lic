@@ -6,7 +6,27 @@
 
   <datafile>
     <filename>OSM_building_footprints_20120302.shp</filename>
-    <checksum></checksum>
+    <checksum>3368060654</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>OSM_building_footprints_20120302.shx</filename>
+    <checksum>3529685013</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>OSM_building_footprints_20120302.dbf</filename>
+    <checksum>3036006844</checksum>
     <publishable>Yes</publishable>
     <accountable>Ole Nielsen</accountable>
     <source>Open Street Map (OSM)</source>

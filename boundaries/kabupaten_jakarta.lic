@@ -6,7 +6,7 @@
 
   <datafile>
     <filename>kabupaten_jakarta.shp</filename>
-    <checksum></checksum>
+    <checksum>1231005636</checksum>
     <publishable>Yes</publishable>
     <accountable>Ole Nielsen</accountable>
     <source>Open Street Map (OSM)</source>
@@ -16,7 +16,7 @@
 
   <datafile>
     <filename>kabupaten_jakarta.shx</filename>
-    <checksum></checksum>
+    <checksum>976051007</checksum>
     <publishable>Yes</publishable>
     <accountable>Ole Nielsen</accountable>
     <source>Open Street Map (OSM)</source>
@@ -26,7 +26,7 @@
 
   <datafile>
     <filename>kabupaten_jakarta.dbf</filename>
-    <checksum></checksum>
+    <checksum>2965739215</checksum>
     <publishable>Yes</publishable>
     <accountable>Ole Nielsen</accountable>
     <source>Open Street Map (OSM)</source>
