@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Jonathan Griffin, AIFDR</author>
+  </metadata>
+
+  <datafile>
+    <filename>padang_tsunami_mw8.8_scenario.asc</filename>
+    <checksum>3708932815</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Jonathan Griffin</accountable>
+    <source>AIFDR</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>Tsunami scenario created at AIFDR</IP_info>
+  </datafile>
+
+</ga_license_file>
