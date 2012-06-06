@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>11170392.243794</xmin>
-            <ymin>-108393.111255</ymin>
-            <xmax>11177446.808952</xmax>
-            <ymax>-102940.735948</ymax>
+            <xmin>11168986.337062</xmin>
+            <ymin>-107964.982804</ymin>
+            <xmax>11175815.841136</xmax>
+            <ymax>-102686.554079</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -26,28 +26,33 @@
     <legend>
         <legendlayer open="true" checked="Qt::Checked" name="Bangunan OSM" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="OSM_building_footprints_2012030220120606104846493" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer open="true" checked="Qt::Checked" name="Tsunami in Maumere (Mw8.1 scenario)" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="maumere_aos_depth_20m_land_wgs8420120606111626094" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="OSM_building_footprints_2012030220120606113310240" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer open="true" checked="Qt::Checked" name="Tsunami in Padang (Mw8.8 scenario)" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="padang_tsunami_mw8_8_scenario20120606104825600" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="padang_tsunami_mw8_8_scenario20120606113509345" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer open="true" checked="Qt::Checked" name="Province_Boundaries" showFeatureCount="0">
+        <legendlayer open="true" checked="Qt::Checked" name="Tsunami in Maumere (Mw8.1 scenario)" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Province_Boundaries20120606112105804" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="maumere_aos_depth_20m_land_wgs8420120606113417172" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Unchecked" name="Province_Boundaries" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Province_Boundaries20120606113617609" visible="0"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer open="true" checked="Qt::Checked" name="OpenStreetMap" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20120606113258736" visible="1"/>
             </filegroup>
         </legendlayer>
     </legend>
-    <projectlayers layercount="4">
+    <projectlayers layercount="5">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>OSM_building_footprints_2012030220120606104846493</id>
+            <id>OSM_building_footprints_2012030220120606113310240</id>
             <datasource>../exposure/OSM_building_footprints_20120302.shp</datasource>
             <layername>Bangunan OSM</layername>
             <srs>
@@ -115,8 +120,27 @@
             <annotationform></annotationform>
             <attributeactions/>
         </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" ol_layer_type="4" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
+            <id>OpenLayers_plugin_layer20120606113258736</id>
+            <datasource></datasource>
+            <layername>OpenStreetMap</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3644</srsid>
+                    <srid>900913</srid>
+                    <authid>EPSG:900913</authid>
+                    <description>Google Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+        </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>Province_Boundaries20120606112105804</id>
+            <id>Province_Boundaries20120606113617609</id>
             <datasource>../boundaries/Province_Boundaries.shp</datasource>
             <layername>Province_Boundaries</layername>
             <srs>
@@ -136,10 +160,10 @@
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="0.4509803921568627" type="fill" name="0">
+                    <symbol outputUnit="MM" alpha="0.403921568627451" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="255,255,255,115"/>
-                            <prop k="color_border" v="0,0,0,115"/>
+                            <prop k="color" v="255,255,255,103"/>
+                            <prop k="color_border" v="0,0,0,103"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
                             <prop k="style_border" v="solid"/>
@@ -196,7 +220,7 @@
             </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>maumere_aos_depth_20m_land_wgs8420120606111626094</id>
+            <id>maumere_aos_depth_20m_land_wgs8420120606113417172</id>
             <datasource>../hazard/maumere_aos_depth_20m_land_wgs84.asc</datasource>
             <layername>Tsunami in Maumere (Mw8.1 scenario)</layername>
             <srs>
@@ -253,7 +277,7 @@
             </rasterproperties>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>padang_tsunami_mw8_8_scenario20120606104825600</id>
+            <id>padang_tsunami_mw8_8_scenario20120606113509345</id>
             <datasource>../hazard/padang_tsunami_mw8.8_scenario.asc</datasource>
             <layername>Tsunami in Padang (Mw8.8 scenario)</layername>
             <srs>
@@ -311,14 +335,7 @@
         </maplayer>
     </projectlayers>
     <properties>
-        <WMSServiceAbstract type="QString"></WMSServiceAbstract>
-        <WMSContactPerson type="QString"></WMSContactPerson>
-        <Identify>
-            <disabledLayers type="QStringList"/>
-        </Identify>
-        <WMSContactPhone type="QString"></WMSContactPhone>
         <SpatialRefSys>
-            <ProjectCRSProj4String type="QString">+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs +towgs84=0,0,0</ProjectCRSProj4String>
             <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
             <ProjectCRSID type="int">3644</ProjectCRSID>
             <ProjectionsEnabled type="int">1</ProjectionsEnabled>
@@ -335,14 +352,9 @@
             <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
             <CanvasColorBluePart type="int">255</CanvasColorBluePart>
         </Gui>
-        <WMSContactMail type="QString"></WMSContactMail>
         <PositionPrecision>
             <DecimalPlaces type="int">2</DecimalPlaces>
             <Automatic type="bool">true</Automatic>
         </PositionPrecision>
-        <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
-        <WMSContactOrganization type="QString"></WMSContactOrganization>
-        <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
-        <WMSServiceTitle type="QString"></WMSServiceTitle>
     </properties>
 </qgis>
