@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>105.354964</xmin>
-            <ymin>-8.776565</ymin>
-            <xmax>110.412262</xmax>
-            <ymax>-5.165212</ymax>
+            <xmin>106.813920</xmin>
+            <ymin>-8.838338</ymin>
+            <xmax>112.254212</xmax>
+            <ymax>-4.953494</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -139,7 +139,7 @@
                 <sizescale field=""/>
             </renderer-v2>
             <customproperties/>
-            <displayfield></displayfield>
+            <displayfield>osm_id</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -161,9 +161,9 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
@@ -347,9 +347,9 @@
                 <edittype type="0" name="SHAPE_AREA"/>
                 <edittype type="0" name="SHAPE_LENG"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <attributeactions/>
             <overlay display="false" type="diagram">
                 <renderer item_interpretation="linear">
