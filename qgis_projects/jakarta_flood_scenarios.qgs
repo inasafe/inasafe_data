@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>106.530718</xmin>
-            <ymin>-6.380759</ymin>
-            <xmax>107.129791</xmax>
-            <ymax>-6.072547</ymax>
+            <xmin>106.551588</xmin>
+            <ymin>-6.381408</ymin>
+            <xmax>107.109966</xmax>
+            <ymax>-6.076470</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -24,28 +24,33 @@
         </destinationsrs>
     </mapcanvas>
     <legend>
+        <legendlayer open="true" checked="Qt::Checked" name="Bangunan OSM" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="OSM_building_footprints_2012030220120605112425292" visible="1"/>
+            </filegroup>
+        </legendlayer>
         <legendlayer open="true" checked="Qt::Checked" name="Bangunan DKI" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="DKI_buildings20120604130010038" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer open="true" checked="Qt::Checked" name="Banjir Jakarta Mungkin" showFeatureCount="0">
+        <legendlayer open="true" checked="Qt::Checked" name="Banjir 2007 dengan perbaikan struktural" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Flood_Design_Depth_Jakarta_geographic20120604125934146" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer open="true" checked="Qt::Checked" name="Banjir Jakarta seperti 2007" showFeatureCount="0">
+        <legendlayer open="true" checked="Qt::Checked" name="Banjir seperti 2007" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Flood_Current_Depth_Jakarta_geographic20120604125809635" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer open="true" checked="Qt::Unchecked" name="Population Density Estimate (5kmx5km)" showFeatureCount="0">
+        <legendlayer open="true" checked="Qt::Unchecked" name="Perkiraan penduduk (5kmx5km)" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="glp10ag20120604130035778" visible="0"/>
             </filegroup>
         </legendlayer>
     </legend>
-    <projectlayers layercount="4">
+    <projectlayers layercount="5">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>DKI_buildings20120604130010038</id>
             <datasource>../exposure/DKI_buildings.shp</datasource>
@@ -82,7 +87,7 @@
                 <sizescale field=""/>
             </renderer-v2>
             <customproperties/>
-            <displayfield></displayfield>
+            <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -104,15 +109,15 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>Flood_Current_Depth_Jakarta_geographic20120604125809635</id>
             <datasource>../hazard/Flood_Current_Depth_Jakarta_geographic.asc</datasource>
-            <layername>Banjir Jakarta seperti 2007</layername>
+            <layername>Banjir seperti 2007</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
@@ -169,7 +174,7 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>Flood_Design_Depth_Jakarta_geographic20120604125934146</id>
             <datasource>../hazard/Flood_Design_Depth_Jakarta_geographic.asc</datasource>
-            <layername>Banjir Jakarta Mungkin</layername>
+            <layername>Banjir 2007 dengan perbaikan struktural</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
@@ -223,10 +228,79 @@
                 </customColorRamp>
             </rasterproperties>
         </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>OSM_building_footprints_2012030220120605112425292</id>
+            <datasource>../exposure/OSM_building_footprints_20120302.shp</datasource>
+            <layername>Bangunan OSM</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3644</srsid>
+                    <srid>900913</srid>
+                    <authid>EPSG:900913</authid>
+                    <description>Google Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="229,230,204,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>id</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="MS Shell Dlg 2"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="id"/>
+                <edittype type="0" name="levels"/>
+                <edittype type="0" name="osm_id"/>
+                <edittype type="0" name="structure"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+        </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>glp10ag20120604130035778</id>
             <datasource>../exposure/glp10ag.asc</datasource>
-            <layername>Population Density Estimate (5kmx5km)</layername>
+            <layername>Perkiraan penduduk (5kmx5km)</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
