@@ -5,33 +5,33 @@
   </metadata>
 
   <datafile>
-    <filename>rw_jakarta.shp</filename>
-    <checksum>3758198586</checksum>
+    <filename>rw_jakarta_singlepart.shp</filename>
+    <checksum>248875981</checksum>
     <publishable>Yes</publishable>
     <accountable>Ole Nielsen</accountable>
     <source>Open Street Map (OSM)</source>
     <IP_owner>OSM</IP_owner>
-    <IP_info>This data is publicly available from the OSM website</IP_info>
+    <IP_info>Derived from data publicly available from the OSM website</IP_info>
   </datafile>
 
   <datafile>
-    <filename>rw_jakarta.shx</filename>
-    <checksum>2206441668</checksum>
+    <filename>rw_jakarta_singlepart.shx</filename>
+    <checksum>815307796</checksum>
     <publishable>Yes</publishable>
     <accountable>Ole Nielsen</accountable>
     <source>Open Street Map (OSM)</source>
     <IP_owner>OSM</IP_owner>
-    <IP_info>This data is publicly available from the OSM website</IP_info>
+    <IP_info>Derived from data publicly available from the OSM website</IP_info>
   </datafile>
 
   <datafile>
-    <filename>rw_jakarta.dbf</filename>
-    <checksum>1464628118</checksum>
+    <filename>rw_jakarta_singlepart.dbf</filename>
+    <checksum>241589702</checksum>
     <publishable>Yes</publishable>
     <accountable>Ole Nielsen</accountable>
     <source>Open Street Map (OSM)</source>
     <IP_owner>OSM</IP_owner>
-    <IP_info>This data is publicly available from the OSM website</IP_info>
+    <IP_info>Derived from data publicly available from the OSM website</IP_info>
   </datafile>
 
 </ga_license_file>
