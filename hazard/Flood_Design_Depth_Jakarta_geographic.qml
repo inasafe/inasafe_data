@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="1.7.2-Wroclaw" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+<qgis version="1.9.90-Alpha" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
   <transparencyLevelInt>255</transparencyLevelInt>
   <rasterproperties>
     <mDrawingStyle>SingleBandPseudoColor</mDrawingStyle>
@@ -24,6 +24,7 @@
     <mNoDataValue mValidNoDataValue="true">-9999.000000</mNoDataValue>
     <singleValuePixelList>
       <pixelListEntry pixelValue="-9999.000000" percentTransparent="100"/>
+      <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
     </singleValuePixelList>
     <threeValuePixelList>
       <pixelListEntry red="-9999.000000" blue="-9999.000000" green="-9999.000000" percentTransparent="100"/>
