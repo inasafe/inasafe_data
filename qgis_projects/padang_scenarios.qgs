@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>100.345215</xmin>
-            <ymin>-0.973293</ymin>
-            <xmax>100.408665</xmax>
-            <ymax>-0.924254</ymax>
+            <xmin>100.339176</xmin>
+            <ymin>-0.975502</ymin>
+            <xmax>100.412694</xmax>
+            <ymax>-0.923004</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -49,7 +49,7 @@
                 <legendlayerfile isInOverview="0" layerid="OSM_building_footprints_2012030220120606105714963" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer open="true" checked="Qt::Checked" name="Perkiraan penduduk (5kmx5km)" showFeatureCount="0">
+        <legendlayer open="true" checked="Qt::Checked" name="Orang" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="glp10ag20120606110337149" visible="1"/>
             </filegroup>
@@ -176,7 +176,7 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>glp10ag20120606110337149</id>
             <datasource>../exposure/glp10ag.asc</datasource>
-            <layername>Perkiraan penduduk (5kmx5km)</layername>
+            <layername>Orang</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
