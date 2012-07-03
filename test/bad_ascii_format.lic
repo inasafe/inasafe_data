@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Hyeuk Ryu, Geoscience Australia</author>
+  </metadata>
+
+  <datafile>
+    <filename>bad_ascii_format.asc</filename>
+    <checksum>1897433097</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Geoscience Australia</source>
+    <IP_owner>Geoscience Australia</IP_owner>
+    <IP_info>Test data created at Geoscience Australia. Used to test for unrecognised data format.</IP_info>
+  </datafile>
+
+</ga_license_file>
