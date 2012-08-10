@@ -6,7 +6,7 @@
 
   <datafile>
     <filename>population_5x5_jakarta_points.shp</filename>
-    <checksum>619733162</checksum>
+    <checksum>1146803775</checksum>
     <publishable>Yes</publishable>
     <accountable>Ole Nielsen</accountable>
     <source>AIFDR</source>
@@ -16,7 +16,7 @@
 
   <datafile>
     <filename>population_5x5_jakarta_points.shx</filename>
-    <checksum>245391234</checksum>
+    <checksum>1897345039</checksum>
     <publishable>Yes</publishable>
     <accountable>Ole Nielsen</accountable>
     <source>AIFDR</source>
@@ -26,7 +26,7 @@
 
   <datafile>
     <filename>population_5x5_jakarta_points.dbf</filename>
-    <checksum>3365860568</checksum>
+    <checksum>1185135920</checksum>
     <publishable>Yes</publishable>
     <accountable>Ole Nielsen</accountable>
     <source>AIFDR</source>
