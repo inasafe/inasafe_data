@@ -6,7 +6,7 @@
 
   <datafile>
     <filename>polygon_6.shp</filename>
-    <checksum></checksum>
+    <checksum>73463155</checksum>
     <publishable>Yes</publishable>
     <accountable>Ole Nielsen</accountable>
     <source>AIFDR</source>
@@ -16,7 +16,7 @@
 
   <datafile>
     <filename>polygon_6.shx</filename>
-    <checksum></checksum>
+    <checksum>625700165</checksum>
     <publishable>Yes</publishable>
     <accountable>Ole Nielsen</accountable>
     <source>AIFDR</source>
@@ -26,7 +26,7 @@
 
   <datafile>
     <filename>polygon_6.dbf</filename>
-    <checksum></checksum>
+    <checksum>3365860568</checksum>
     <publishable>Yes</publishable>
     <accountable>Ole Nielsen</accountable>
     <source>AIFDR</source>
