@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Ole Nielsen</author>
+  </metadata>
+
+  <datafile>
+    <filename>201208140700_Jakarta_200m_Sobek_Hypothetical_Scenario_ACCESSA.lic</filename>
+    <checksum></checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Deltares</source>
+    <IP_owner>Deltares</IP_owner>
+    <IP_info>Dutch assistance with flood predicition for Jakarta. This data is a hypothetical scenario representative of the format Deltares is using and to be used only for testing purposes.
+    This data comes with no warranty or liability.
+    Contacts: Janjaap Brinkman (Janjaap.Brinkman@deltares.nl) and Ronald Vernimmen (Ronald.Vernimmen@deltares.nl)</IP_info>
+  </datafile>
+
+</ga_license_file>

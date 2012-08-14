@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Ole Nielsen</author>
+  </metadata>
+
+  <datafile>
+    <filename>201207151900_Jakarta_200m_Sobek_Forecast_ACCESSA.lic</filename>
+    <checksum></checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Public website: http://bfews.pusair-pu.go.id</source>
+    <IP_owner>Deltares</IP_owner>
+    <IP_info>Dutch assistance with flood predicition for Jakarta. This data is put online every 12 hours in the hope that it will be useful.
+    Deltares contacted AIFDR in May 2012 to investigate if this data could be used with InaSAFE. The forecasts are public but come with no warranty or liability.
+    Contacts: Janjaap Brinkman (Janjaap.Brinkman@deltares.nl) and Ronald Vernimmen (Ronald.Vernimmen@deltares.nl)</IP_info>
+  </datafile>
+
+</ga_license_file>
