@@ -1,6 +1,6 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="1.7.3-Wroclaw" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
-  <transparencyLevelInt>255</transparencyLevelInt>
+<qgis version="1.8.0-Lisboa" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+  <transparencyLevelInt>113</transparencyLevelInt>
   <rasterproperties>
     <mDrawingStyle>SingleBandPseudoColor</mDrawingStyle>
     <mColorShadingAlgorithm>ColorRampShader</mColorShadingAlgorithm>
@@ -24,17 +24,19 @@
     <mNoDataValue mValidNoDataValue="true">-9999.000000</mNoDataValue>
     <singleValuePixelList>
       <pixelListEntry pixelValue="-9999.000000" percentTransparent="100"/>
+      <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
     </singleValuePixelList>
     <threeValuePixelList>
       <pixelListEntry red="-9999.000000" blue="-9999.000000" green="-9999.000000" percentTransparent="100"/>
     </threeValuePixelList>
     <customColorRamp>
       <colorRampType>DISCRETE</colorRampType>
-      <colorRampEntry red="0" blue="255" value="3.025794" green="0" label=""/>
-      <colorRampEntry red="51" blue="204" value="4.271803" green="0" label=""/>
-      <colorRampEntry red="102" blue="153" value="5.517812" green="0" label=""/>
-      <colorRampEntry red="153" blue="102" value="6.763821" green="0" label=""/>
-      <colorRampEntry red="204" blue="51" value="8.009830" green="0" label=""/>
+      <colorRampEntry red="255" blue="255" value="5.000000" green="255" label="Null"/>
+      <colorRampEntry red="21" blue="161" value="6.000000" green="220" label="5 - 6"/>
+      <colorRampEntry red="255" blue="0" value="7.000000" green="255" label="6 - 7"/>
+      <colorRampEntry red="255" blue="0" value="8.000000" green="170" label="7 - 8"/>
+      <colorRampEntry red="255" blue="0" value="9.000000" green="102" label="8 - 9"/>
+      <colorRampEntry red="210" blue="45" value="10.000000" green="0" label="9 +"/>
     </customColorRamp>
   </rasterproperties>
 </qgis>
