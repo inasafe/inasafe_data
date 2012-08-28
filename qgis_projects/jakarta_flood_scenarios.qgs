@@ -362,7 +362,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>kabupaten_jakarta20120629124437141</id>
-            <datasource>/home/nielso/sandpit/inasafe_data/boundaries/kabupaten_jakarta.shp</datasource>
+            <datasource>../boundaries/kabupaten_jakarta.shp</datasource>
             <title></title>
             <abstract></abstract>
             <layername>kabupaten_jakarta</layername>
