@@ -1,12 +1,12 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="1.7.4-Wroclaw">
+<qgis projectname="" version="1.8.0-Lisboa">
     <title></title>
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>106.616940</xmin>
+            <xmin>106.613564</xmin>
             <ymin>-6.381409</ymin>
-            <xmax>107.043974</xmax>
+            <xmax>107.047350</xmax>
             <ymax>-6.076470</ymax>
         </extent>
         <projections>0</projections>
@@ -23,33 +23,33 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <legend>
-        <legendlayer open="true" checked="Qt::Checked" name="Bangunan OSM" showFeatureCount="0">
+    <legend updateDrawingOrder="true">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Bangunan OSM" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="OSM_building_footprints_2012030220120605112425292" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer open="true" checked="Qt::Checked" name="Bangunan DKI" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Bangunan DKI" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="DKI_buildings20120604130010038" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer open="true" checked="Qt::Checked" name="Banjir 2007 dengan perbaikan struktural" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Banjir di Jakarta seperti 2007 tapi ada perbaikan struktural" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Flood_Design_Depth_Jakarta_geographic20120604125934146" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer open="true" checked="Qt::Checked" name="Banjir di Jakarta seperti tahun 2007" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Banjir di Jakarta seperti tahun 2007" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Flood_Current_Depth_Jakarta_geographic20120604125809635" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer open="true" checked="Qt::Unchecked" name="Orang" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Orang" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="glp10ag20120604130035778" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer open="true" checked="Qt::Checked" name="kabupaten_jakarta" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="kabupaten_jakarta" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="kabupaten_jakarta20120629124437141" visible="1"/>
             </filegroup>
@@ -59,6 +59,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>DKI_buildings20120604130010038</id>
             <datasource>../exposure/DKI_buildings.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>Bangunan DKI</layername>
             <srs>
                 <spatialrefsys>
@@ -122,6 +124,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>Flood_Current_Depth_Jakarta_geographic20120604125809635</id>
             <datasource>../hazard/Flood_Current_Depth_Jakarta_geographic.asc</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>Banjir di Jakarta seperti tahun 2007</layername>
             <srs>
                 <spatialrefsys>
@@ -179,7 +183,9 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>Flood_Design_Depth_Jakarta_geographic20120604125934146</id>
             <datasource>../hazard/Flood_Design_Depth_Jakarta_geographic.asc</datasource>
-            <layername>Banjir 2007 dengan perbaikan struktural</layername>
+            <title></title>
+            <abstract></abstract>
+            <layername>Banjir di Jakarta seperti 2007 tapi ada perbaikan struktural</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
@@ -236,6 +242,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>OSM_building_footprints_2012030220120605112425292</id>
             <datasource>../exposure/OSM_building_footprints_20120302.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>Bangunan OSM</layername>
             <srs>
                 <spatialrefsys>
@@ -305,6 +313,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>glp10ag20120604130035778</id>
             <datasource>../exposure/glp10ag.asc</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>Orang</layername>
             <srs>
                 <spatialrefsys>
@@ -353,6 +363,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>kabupaten_jakarta20120629124437141</id>
             <datasource>/home/nielso/sandpit/inasafe_data/boundaries/kabupaten_jakarta.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>kabupaten_jakarta</layername>
             <srs>
                 <spatialrefsys>
@@ -371,7 +383,7 @@
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="0.3411764705882353" type="fill" name="0">
+                    <symbol outputUnit="MM" alpha="0.341176" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,255,87"/>
                             <prop k="color_border" v="0,0,0,87"/>
