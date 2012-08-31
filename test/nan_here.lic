@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Ole Nielsen, AIFDR</author>
+  </metadata>
+
+  <datafile>
+    <filename>nan_here.shp</filename>
+    <checksum>1174526545</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>AIFDR</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>Artificial data created at AIFDR for test purposes</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>nan_here.shx</filename>
+    <checksum>1448774819</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>AIFDR</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>Artificial data created at AIFDR for test purposes</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>nan_here.dbf</filename>
+    <checksum>626335988</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>AIFDR</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>Artificial data created at AIFDR for test purposes</IP_info>
+  </datafile>
+
+</ga_license_file>
