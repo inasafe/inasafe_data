@@ -11,8 +11,9 @@
     <accountable>Ole Nielsen</accountable>
     <source>Public website: http://bfews.pusair-pu.go.id</source>
     <IP_owner>Deltares</IP_owner>
-    <IP_info>Dutch assistance with flood predicition for Jakarta. This data is put online every 12 hours in the hope that it will be useful.
-    Deltares contacted AIFDR in May 2012 to investigate if this data could be used with InaSAFE. The forecasts are public but come with no warranty or liability.
+    <IP_info>Dutch assistance with flood prediction for Jakarta. This data is put online every 12 hours in the hope that it will be useful.
+    Deltares contacted AIFDR in May 2012 to investigate if this data could be used with InaSAFE. The forecasts are public but come with no
+    warranty or liability.
     Contacts: Janjaap Brinkman (Janjaap.Brinkman@deltares.nl) and Ronald Vernimmen (Ronald.Vernimmen@deltares.nl)</IP_info>
   </datafile>
 

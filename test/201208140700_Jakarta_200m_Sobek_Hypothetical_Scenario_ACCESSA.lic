@@ -11,8 +11,10 @@
     <accountable>Ole Nielsen</accountable>
     <source>Deltares</source>
     <IP_owner>Deltares</IP_owner>
-    <IP_info>Dutch assistance with flood predicition for Jakarta. This data is a hypothetical scenario representative of the format Deltares is using and to be used only for testing purposes.
-    This data comes with no warranty or liability.
+    <IP_info>Dutch assistance with flood prediction for Jakarta. This data is an artificial floodmap resulting from a Sobek
+    hydrodynamic calculation exported by Delft-FEWS software. This map is used for testing purposes only and as such the
+    results are not to be used in any decision making. This data comes with no warranty or liability. Explicit permission
+    to include this data in InaSAFE was given by Ronal Vernimmen on 3 September 2012.
     Contacts: Janjaap Brinkman (Janjaap.Brinkman@deltares.nl) and Ronald Vernimmen (Ronald.Vernimmen@deltares.nl)</IP_info>
   </datafile>
 
