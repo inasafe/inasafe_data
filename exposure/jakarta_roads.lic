@@ -6,7 +6,7 @@
 
   <datafile>
     <filename>jakarta_roads.shp</filename>
-    <checksum>2153581245</checksum>
+    <checksum>4254847663</checksum>
     <publishable>Yes</publishable>
     <accountable>Ole Nielsen</accountable>
     <source>Open Street Map (OSM)</source>
@@ -16,7 +16,7 @@
 
   <datafile>
     <filename>jakarta_roads.shx</filename>
-    <checksum>312816456</checksum>
+    <checksum>3556574406</checksum>
     <publishable>Yes</publishable>
     <accountable>Ole Nielsen</accountable>
     <source>Open Street Map (OSM)</source>
@@ -26,7 +26,7 @@
 
   <datafile>
     <filename>jakarta_roads.dbf</filename>
-    <checksum>2665329878</checksum>
+    <checksum>3746169401</checksum>
     <publishable>Yes</publishable>
     <accountable>Ole Nielsen</accountable>
     <source>Open Street Map (OSM)</source>
