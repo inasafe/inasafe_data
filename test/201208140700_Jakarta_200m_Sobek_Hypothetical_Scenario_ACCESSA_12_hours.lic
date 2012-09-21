@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Ole Nielsen</author>
+  </metadata>
+
+  <datafile>
+    <filename>201208140700_Jakarta_200m_Sobek_Hypothetical_Scenario_ACCESSA_12_hours.tif</filename>
+    <checksum>2643455802</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Deltares</source>
+    <IP_owner>Deltares</IP_owner>
+    <IP_info>Derived from 201208140700_Jakarta_200m_Sobek_Hypothetical_Scenario_ACCESS. To be used for testing only.</IP_info>
+  </datafile>
+
+</ga_license_file>
