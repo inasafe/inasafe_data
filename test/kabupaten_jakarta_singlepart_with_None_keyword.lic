@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Marco Bernasocchi, opengis.ch</author>
+  </metadata>
+
+  <datafile>
+    <filename>kabupaten_jakarta_singlepart_with_None_keyword.shp</filename>
+    <checksum>3939279202</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website, derived from kabupaten_jakarta_singlepart.shp</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>kabupaten_jakarta_singlepart_with_None_keyword.shx</filename>
+    <checksum>1831994982</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website, derived from kabupaten_jakarta_singlepart.shp</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>kabupaten_jakarta_singlepart_with_None_keyword.dbf</filename>
+    <checksum>3005509445</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website, derived from kabupaten_jakarta_singlepart.shp</IP_info>
+  </datafile>
+
+</ga_license_file>
