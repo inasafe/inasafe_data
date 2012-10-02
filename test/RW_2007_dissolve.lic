@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Ole Nielsen, AIFDR</author>
+  </metadata>
+
+  <datafile>
+    <filename>RW_2007_dissolve.shp</filename>
+    <checksum>838179853</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Kristy Van Putten</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>RW_2007_dissolve.shx</filename>
+    <checksum>4022408369</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Kristy Van Putten</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>RW_2007_dissolve.dbf</filename>
+    <checksum>1907804721</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Kristy Van Putten</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>OSM</IP_owner>
+    <IP_info>This data is publicly available from the OSM website</IP_info>
+  </datafile>
+
+</ga_license_file>
