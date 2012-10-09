@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Jonathan Griffin, AIFDR</author>
+  </metadata>
+
+  <datafile>
+    <filename>lembang_6.8_shakemap.asc</filename>
+    <checksum>FIXME</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Jonathan Griffin</accountable>
+    <source>AIFDR</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>Lembang Magnitude 6.8</IP_info>
+  </datafile>
+
+</ga_license_file>
