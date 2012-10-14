@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Ole Nielsen</author>
+  </metadata>
+
+  <datafile>
+    <filename>pop_merapi_clip.tif</filename>
+    <checksum>2947091174</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Small clip of population data bundled with InaSAFE</source>
+    <IP_owner>BNPB</IP_owner>
+    <IP_info>This is subset of the BPS-BNPB population data used for Indonesia.</IP_info>
+  </datafile>
+
+</ga_license_file>
