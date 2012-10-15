@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>105.281012</xmin>
-            <ymin>-9.574072</ymin>
-            <xmax>112.770713</xmax>
-            <ymax>-4.144645</ymax>
+            <xmin>106.827596</xmin>
+            <ymin>-7.450503</ymin>
+            <xmax>108.530575</xmax>
+            <ymax>-5.949172</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -24,14 +24,9 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="true">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OSM buildings Lembang 20121003" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OSM_structures_indonesia_20121005" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="lembang_osm_2012100320121004161254377" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Essential Buildings" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="OSM_building_footprints_2012030220120604133619442" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="OSM_structures_indonesia_2012100520121015075924363" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="An earthquake at the Sumatran fault (Mw 7.8)" showFeatureCount="0">
@@ -64,13 +59,8 @@
                 <legendlayerfile isInOverview="0" layerid="population_indonesia_2010_BNPB_BPS20121011152330923" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="People" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="glp10ag20120604130533090" visible="0"/>
-            </filegroup>
-        </legendlayer>
     </legend>
-    <projectlayers layercount="9">
+    <projectlayers layercount="7">
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>Lembang_Earthquake_Scenario20120604130331195</id>
             <datasource>../hazard/Lembang_Earthquake_Scenario.asc</datasource>
@@ -122,20 +112,20 @@
             </rasterproperties>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>OSM_building_footprints_2012030220120604133619442</id>
-            <datasource>../exposure/OSM_building_footprints_20120302.shp</datasource>
+            <id>OSM_structures_indonesia_2012100520121015075924363</id>
+            <datasource>../exposure/OSM_structures_indonesia_20121005.shp</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Essential Buildings</layername>
+            <layername>OSM_structures_indonesia_20121005</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
-                    <srsid>3644</srsid>
-                    <srid>900913</srid>
-                    <authid>EPSG:900913</authid>
-                    <description>Google Mercator</description>
+                    <srsid>1743</srsid>
+                    <srid>3785</srid>
+                    <authid>EPSG:3785</authid>
+                    <description>Popular Visualisation CRS / Mercator</description>
                     <projectionacronym>merc</projectionacronym>
-                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <ellipsoidacronym></ellipsoidacronym>
                     <geographicflag>false</geographicflag>
                 </spatialrefsys>
             </srs>
@@ -146,7 +136,7 @@
                 <symbols>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="229,230,204,255"/>
+                            <prop k="color" v="124,213,99,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
@@ -159,11 +149,11 @@
                 <sizescale field=""/>
             </renderer-v2>
             <customproperties/>
-            <displayfield>id</displayfield>
+            <displayfield></displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
-                <family fieldname="" name="MS Shell Dlg 2"/>
+                <family fieldname="" name="Ubuntu"/>
                 <size fieldname="" units="pt" value="12"/>
                 <bold fieldname="" on="0"/>
                 <italic fieldname="" on="0"/>
@@ -181,15 +171,9 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <edittypes>
-                <edittype type="0" name="id"/>
-                <edittype type="0" name="levels"/>
-                <edittype type="0" name="osm_id"/>
-                <edittype type="0" name="structure"/>
-            </edittypes>
-            <editform>../../inasafe_data/qgis_projects</editform>
+            <editform></editform>
             <editforminit></editforminit>
-            <annotationform>../../inasafe_data/qgis_projects</annotationform>
+            <annotationform></annotationform>
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
@@ -291,121 +275,6 @@
                     <pixelListEntry red="-9999.000000" blue="-9999.000000" green="-9999.000000" percentTransparent="100"/>
                 </threeValuePixelList>
             </rasterproperties>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>glp10ag20120604130533090</id>
-            <datasource>../exposure/glp10ag.asc</datasource>
-            <title></title>
-            <abstract></abstract>
-            <layername>People</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
-                    <srsid>3452</srsid>
-                    <srid>4326</srid>
-                    <authid>EPSG:4326</authid>
-                    <description>WGS 84</description>
-                    <projectionacronym>longlat</projectionacronym>
-                    <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>true</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <customproperties/>
-            <provider>gdal</provider>
-            <rasterproperties>
-                <mDrawingStyle>SingleBandGray</mDrawingStyle>
-                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
-                <mInvertColor boolean="true"/>
-                <mRedBandName>Not Set</mRedBandName>
-                <mGreenBandName>Not Set</mGreenBandName>
-                <mBlueBandName>Not Set</mBlueBandName>
-                <mGrayBandName>Band 1</mGrayBandName>
-                <mStandardDeviations>0</mStandardDeviations>
-                <mUserDefinedRGBMinimumMaximum boolean="false"/>
-                <mRGBMinimumMaximumEstimated boolean="true"/>
-                <mUserDefinedGrayMinimumMaximum boolean="false"/>
-                <mGrayMinimumMaximumEstimated boolean="true"/>
-                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
-                <contrastEnhancementMinMaxValues>
-                    <minMaxEntry>
-                        <min>0</min>
-                        <max>238127</max>
-                    </minMaxEntry>
-                </contrastEnhancementMinMaxValues>
-                <mNoDataValue mValidNoDataValue="true">-9999.000000</mNoDataValue>
-                <singleValuePixelList>
-                    <pixelListEntry pixelValue="-9999.000000" percentTransparent="100"/>
-                </singleValuePixelList>
-                <threeValuePixelList>
-                    <pixelListEntry red="-9999.000000" blue="-9999.000000" green="-9999.000000" percentTransparent="100"/>
-                </threeValuePixelList>
-            </rasterproperties>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>lembang_osm_2012100320121004161254377</id>
-            <datasource>../test/lembang_osm_20121003.sqlite</datasource>
-            <title></title>
-            <abstract></abstract>
-            <layername>OSM buildings Lembang 20121003</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=merc +lon_0=0 +lat_ts=0 +x_0=0 +y_0=0 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
-                    <srsid>3857</srsid>
-                    <srid>3857</srid>
-                    <authid>EPSG:3857</authid>
-                    <description>WGS 84 / Pseudo Mercator</description>
-                    <projectionacronym>merc</projectionacronym>
-                    <ellipsoidacronym>WGS84</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="System">ogr</provider>
-            <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
-                <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="107,190,238,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="style" v="solid"/>
-                            <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="0.26"/>
-                        </layer>
-                    </symbol>
-                </symbols>
-                <rotation field=""/>
-                <sizescale field=""/>
-            </renderer-v2>
-            <customproperties/>
-            <displayfield>osm_id</displayfield>
-            <label>0</label>
-            <labelattributes>
-                <label fieldname="" text="Label"/>
-                <family fieldname="" name="Ubuntu"/>
-                <size fieldname="" units="pt" value="12"/>
-                <bold fieldname="" on="0"/>
-                <italic fieldname="" on="0"/>
-                <underline fieldname="" on="0"/>
-                <strikeout fieldname="" on="0"/>
-                <color fieldname="" red="0" blue="0" green="0"/>
-                <x fieldname=""/>
-                <y fieldname=""/>
-                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-                <angle fieldname="" value="0" auto="0"/>
-                <alignment fieldname="" value="center"/>
-                <buffercolor fieldname="" red="255" blue="255" green="255"/>
-                <buffersize fieldname="" units="pt" value="1"/>
-                <bufferenabled fieldname="" on=""/>
-                <multilineenabled fieldname="" on=""/>
-                <selectedonly on=""/>
-            </labelattributes>
-            <editform>../../inasafe_data/qgis_projects</editform>
-            <editforminit></editforminit>
-            <annotationform>../../inasafe_data/qgis_projects</annotationform>
-            <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>mentawai_9_0_shakemap20120604130331548</id>
