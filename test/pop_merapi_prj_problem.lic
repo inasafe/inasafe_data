@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Ole Nielsen</author>
+  </metadata>
+
+  <datafile>
+    <filename>pop_merapi_prj_problem.asc</filename>
+    <checksum>3056923743</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>AIFDR</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>This is an artificial dataset used to test compatible projection codes</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>pop_merapi_pj_problem.prj</filename>
+    <checksum></checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>AIFDR</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>This is an artificial dataset used to test compatible projection codes</IP_info>
+  </datafile>
+
+</ga_license_file>
