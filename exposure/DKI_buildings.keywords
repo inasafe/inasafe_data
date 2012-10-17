@@ -2,3 +2,4 @@ datatype: osm
 category: exposure
 subcategory: structure
 title: Essential buildings
+source: OpenStreetMap
