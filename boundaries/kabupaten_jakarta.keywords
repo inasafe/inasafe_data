@@ -1,9 +1,6 @@
 category: postprocessing
 aggregation attribute: KAB_NAME
-<<<<<<< HEAD
-title: kabupaten jakarta
-source: OpenStreetMap
-=======
 subcategory: aggregation
-title: Kabupaten Jakarta
->>>>>>> Keyword and Jakarta qgs project
+title: Kabupaten in DKI Jakarta
+source: OpenStreetMap
+female ratio attribute: PEREMPUAN

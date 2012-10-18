@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20120830</CreaDate><CreaTime>10505500</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\ExtractByMask" Date="20120830" Time="105055">ExtractByMask max_WGS84.tif Land Z:\data\thematic\tsunami\Padang\Pdg_HRSC_dsm_2.54m_Inund_dom6\max_WGS84_extract.tif</Process></lineage></DataProperties></Esri></metadata>

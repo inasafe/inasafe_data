@@ -1,9 +1,5 @@
 category: hazard
-subcategory: flood
-unit: wet/dry
-<<<<<<< HEAD
-title: A flood in Jakarta
 source: OpenStreetMap
-=======
+subcategory: flood
+unit: m
 title: A flood in Jakarta based on flooded subvillage boundaries in 2007
->>>>>>> Keyword and Jakarta qgs project
