@@ -6,7 +6,7 @@
 
   <datafile>
     <filename>OSM_structures_jakarta_20121018.shp</filename>
-    <checksum>854293387</checksum>
+    <checksum>1283998378</checksum>
     <publishable>Yes</publishable>
     <accountable>Ole Nielsen</accountable>
     <source>Open Street Map (OSM)</source>
@@ -16,7 +16,7 @@
 
   <datafile>
     <filename>OSM_structures_jakarta_20121018.shx</filename>
-    <checksum>4202268327</checksum>
+    <checksum>4160224935</checksum>
     <publishable>Yes</publishable>
     <accountable>Ole Nielsen</accountable>
     <source>Open Street Map (OSM)</source>
@@ -26,7 +26,7 @@
 
   <datafile>
     <filename>OSM_structures_jakarta_20121018.dbf</filename>
-    <checksum>3195331579</checksum>
+    <checksum>3045899775</checksum>
     <publishable>Yes</publishable>
     <accountable>Ole Nielsen</accountable>
     <source>Open Street Map (OSM)</source>
