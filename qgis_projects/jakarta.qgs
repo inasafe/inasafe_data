@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>106.630758</xmin>
-            <ymin>-6.379713</ymin>
-            <xmax>107.028674</xmax>
-            <ymax>-6.081757</ymax>
+            <xmin>106.639209</xmin>
+            <ymin>-6.373275</ymin>
+            <xmax>107.021086</xmax>
+            <ymax>-6.087329</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -44,9 +44,9 @@
                 <legendlayerfile isInOverview="0" layerid="Jakarta_RW_2007flood20121017161830976" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="people" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="people" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="population_jakarta20121017191853395" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="population_jakarta20121017191853395" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="A flood in Jakarta based on flooded subvillage boundaries in 2007 raster" showFeatureCount="0">
@@ -510,11 +510,12 @@
                 </threeValuePixelList>
                 <customColorRamp>
                     <colorRampType>DISCRETE</colorRampType>
-                    <colorRampEntry red="187" blue="14" value="8.048388" green="202" label="8.048388"/>
-                    <colorRampEntry red="204" blue="16" value="274.533179" green="176" label="274.533179"/>
-                    <colorRampEntry red="153" blue="18" value="541.017969" green="116" label="541.017969"/>
-                    <colorRampEntry red="126" blue="17" value="807.502759" green="84" label="807.502759"/>
-                    <colorRampEntry red="78" blue="5" value="1073.987549" green="46" label="1073.987549"/>
+                    <colorRampEntry red="255" blue="255" value="0.000000" green="255" label="NULL"/>
+                    <colorRampEntry red="187" blue="14" value="50.000000" green="202" label="0.1-50"/>
+                    <colorRampEntry red="204" blue="16" value="100.000000" green="176" label="50-100"/>
+                    <colorRampEntry red="153" blue="18" value="200.000000" green="116" label="100-200"/>
+                    <colorRampEntry red="126" blue="17" value="400.000000" green="84" label="200-400"/>
+                    <colorRampEntry red="78" blue="5" value="1073.987549" green="46" label="400+"/>
                 </customColorRamp>
             </rasterproperties>
         </maplayer>
