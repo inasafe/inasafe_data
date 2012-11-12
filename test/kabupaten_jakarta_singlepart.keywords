@@ -2,3 +2,5 @@ category: postprocessing
 aggregation attribute: KAB_NAME
 subcategory: aggregation
 title: kabupaten jakarta singlepart
+female ratio attribute: Use default
+female ratio default: 0.5

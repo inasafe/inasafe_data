@@ -2,3 +2,5 @@ category: postprocessing
 aggregation attribute: None
 subcategory: aggregation
 title: kabupaten jakarta singlepart with None keyword
+female ratio attribute: Use default
+female ratio default: 0.5
