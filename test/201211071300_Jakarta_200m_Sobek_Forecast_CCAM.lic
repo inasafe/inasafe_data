@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Ole Nielsen</author>
+  </metadata>
+
+  <datafile>
+    <filename>201211071300_Jakarta_200m_Sobek_Forecast_CCAM.nc</filename>
+    <checksum>2813162770</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Deltares</source>
+    <IP_owner>Deltares</IP_owner>
+    <IP_info>Dutch assistance with flood prediction for Jakarta. This data is an artificial floodmap resulting from a Sobek
+    hydrodynamic calculation exported by Delft-FEWS software. This map is used for testing purposes only and as such the
+    results are not to be used in any decision making. This data comes with no warranty or liability. Explicit permission
+    to include this data in InaSAFE was given by Arnejan van Loenen in November 2012.
+    Contacts: Janjaap Brinkman (Janjaap.Brinkman@deltares.nl), Arnejan van Loenen (Arnejan.vanLoenen@deltares.nl) and Ronald Vernimmen (Ronald.Vernimmen@deltares.nl)</IP_info>
+  </datafile>
+
+</ga_license_file>
