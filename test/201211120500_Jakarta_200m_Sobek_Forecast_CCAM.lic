@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Ole Nielsen</author>
+  </metadata>
+
+  <datafile>
+    <filename>201211120500_Jakarta_200m_Sobek_Forecast_CCAM.nc</filename>
+    <checksum>4285660274</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>Deltares</source>
+    <IP_owner>Deltares</IP_owner>
+    <IP_info>Available from public website http://bfews.pusair-pu.go.id/Sobek-Floodmaps
+    </IP_info>
+  </datafile>
+
+</ga_license_file>
