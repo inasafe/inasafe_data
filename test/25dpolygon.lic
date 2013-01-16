@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Ole Nielsen, AIFDR</author>
+  </metadata>
+
+  <datafile>
+    <filename>25dpolygon.shp</filename>
+    <checksum></checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>AIFDR</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>Arbitrary 3D polygon example for test purposes</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>25dpolygon.shx</filename>
+    <checksum></checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>AIFDR</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>Arbitrary 3D polygon example for test purposes</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>25dpolygon.dbf</filename>
+    <checksum></checksum>
+    <publishable>Yes</publishable>
+    <accountable>Ole Nielsen</accountable>
+    <source>AIFDR</source>
+    <IP_owner>AIFDR</IP_owner>
+    <IP_info>Arbitrary 3D polygon example for test purposes</IP_info>
+  </datafile>
+
+</ga_license_file>
