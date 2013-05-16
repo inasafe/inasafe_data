@@ -1,11 +1,11 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="1.7.4-Wroclaw" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+<qgis version="1.8.0-Lisboa" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
   <transparencyLevelInt>255</transparencyLevelInt>
   <renderer-v2 attr="DMGLEVEL" symbollevels="0" type="graduatedSymbol">
     <ranges>
-      <range symbol="0" lower="0.5" upper="1.5" label="Low damage"/>
-      <range symbol="1" lower="1.5" upper="2.5" label="Medium damage"/>
-      <range symbol="2" lower="2.5" upper="3.5" label="High damage"/>
+      <range symbol="0" lower="0" upper="1.5" label="[0.0 - 1.5] Low damage"/>
+      <range symbol="1" lower="1.5" upper="2.5" label="[1.5 - 2.5] Medium damage"/>
+      <range symbol="2" lower="2.5" upper="3.5" label="[2.5 - 3.5] High damage"/>
     </ranges>
     <symbols>
       <symbol outputUnit="MM" alpha="1" type="fill" name="0">

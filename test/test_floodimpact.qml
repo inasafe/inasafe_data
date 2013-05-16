@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="1.7.4-Wroclaw" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+<qgis version="1.8.0-Lisboa" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
   <transparencyLevelInt>255</transparencyLevelInt>
   <rasterproperties>
     <mDrawingStyle>SingleBandPseudoColor</mDrawingStyle>
@@ -31,14 +31,14 @@
     </threeValuePixelList>
     <customColorRamp>
       <colorRampType>DISCRETE</colorRampType>
-      <colorRampEntry red="56" blue="0" value="2.000000" green="168" label="Low"/>
-      <colorRampEntry red="56" blue="0" value="5.000000" green="168" label=""/>
-      <colorRampEntry red="121" blue="0" value="10.000000" green="201" label=""/>
-      <colorRampEntry red="206" blue="0" value="20.000000" green="237" label=""/>
-      <colorRampEntry red="255" blue="0" value="50.000000" green="204" label="Medium"/>
-      <colorRampEntry red="255" blue="0" value="100.000000" green="102" label=""/>
-      <colorRampEntry red="255" blue="0" value="200.000000" green="0" label=""/>
-      <colorRampEntry red="122" blue="0" value="300.000000" green="0" label="High"/>
+      <colorRampEntry red="56" blue="0" value="2.000000" green="168" label="[0 - 2] Low"/>
+      <colorRampEntry red="56" blue="0" value="5.000000" green="168" label="[2 - 5]"/>
+      <colorRampEntry red="121" blue="0" value="10.000000" green="201" label="[5 - 10]"/>
+      <colorRampEntry red="206" blue="0" value="20.000000" green="237" label="[10 - 20]"/>
+      <colorRampEntry red="255" blue="0" value="50.000000" green="204" label="[20 - 50] Medium"/>
+      <colorRampEntry red="255" blue="0" value="100.000000" green="102" label="[50 - 100]"/>
+      <colorRampEntry red="255" blue="0" value="200.000000" green="0" label="[100 - 200]"/>
+      <colorRampEntry red="122" blue="0" value="300.000000" green="0" label="[200 - 300] High"/>
     </customColorRamp>
   </rasterproperties>
 </qgis>
