@@ -2,3 +2,5 @@ category: postprocessing
 aggregation attribute: KAB_NAME
 title: kabupaten jakarta
 source: OpenStreetMap
+female ratio attribute: Use default
+female ratio default: 0.5
