@@ -1,1 +1,3 @@
 title: aggregation_test_impact_vector_small
+legend_units: (inundated or not inundated)
+target_field: INUNDATED
