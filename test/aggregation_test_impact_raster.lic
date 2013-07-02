@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Marco Bernasocchi</author>
+  </metadata>
+
+  <datafile>
+    <filename>aggregation_test_impact_raster.tif</filename>
+    <checksum>1257638224</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Marco Bernasocchi</accountable>
+    <source>Marco Bernasocchi (QGIS Source Tree)</source>
+    <IP_owner>Marco Bernasocchi</IP_owner>
+    <IP_info>The original file was created and contributed by Marco Bernasocchi.</IP_info>
+  </datafile>
+
+</ga_license_file>
+
