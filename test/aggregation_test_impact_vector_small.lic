@@ -6,7 +6,7 @@
 
   <datafile>
     <filename>aggregation_test_impact_vector_small.shp</filename>
-    <checksum>2853854268</checksum>
+    <checksum>1703675823</checksum>
     <publishable>Yes</publishable>
     <accountable>Marco Bernasocchi</accountable>
     <source>Marco Bernasocchi</source>
@@ -16,7 +16,7 @@
 
   <datafile>
     <filename>aggregation_test_impact_vector_small.shx</filename>
-    <checksum>2276838120</checksum>
+    <checksum>2442695160</checksum>
     <publishable>Yes</publishable>
     <accountable>Marco Bernasocchi</accountable>
     <source>Marco Bernasocchi</source>
