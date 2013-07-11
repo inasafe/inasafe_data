@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Marco Bernasocchi</author>
+  </metadata>
+
+  <datafile>
+    <filename>aggregation_test_impact_vector.shp</filename>
+    <checksum>3975066206</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Marco Bernasocchi</accountable>
+    <source>Marco Bernasocchi</source>
+    <IP_owner>Marco Bernasocchi</IP_owner>
+    <IP_info>This data was created by Marco for the InaSAFE project.</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>aggregation_test_impact_vector.shx</filename>
+    <checksum>850293435</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Marco Bernasocchi</accountable>
+    <source>Marco Bernasocchi</source>
+    <IP_owner>Marco Bernasocchi</IP_owner>
+    <IP_info>This data was created by Marco for the InaSAFE project.</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>aggregation_test_impact_vector.dbf</filename>
+    <checksum>693753772</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Marco Bernasocchi</accountable>
+    <source>Marco Bernasocchi</source>
+    <IP_owner>Marco Bernasocchi</IP_owner>
+    <IP_info>This data was created by Marco for the InaSAFE project.</IP_info>
+  </datafile>
+
+</ga_license_file>
+
