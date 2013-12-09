@@ -1,42 +1,22 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="1.8.0-Lisboa" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
-  <transparencyLevelInt>113</transparencyLevelInt>
-  <rasterproperties>
-    <mDrawingStyle>SingleBandPseudoColor</mDrawingStyle>
-    <mColorShadingAlgorithm>ColorRampShader</mColorShadingAlgorithm>
-    <mInvertColor boolean="false"/>
-    <mRedBandName>Not Set</mRedBandName>
-    <mGreenBandName>Not Set</mGreenBandName>
-    <mBlueBandName>Not Set</mBlueBandName>
-    <mGrayBandName>Band 1</mGrayBandName>
-    <mStandardDeviations>0</mStandardDeviations>
-    <mUserDefinedRGBMinimumMaximum boolean="false"/>
-    <mRGBMinimumMaximumEstimated boolean="true"/>
-    <mUserDefinedGrayMinimumMaximum boolean="false"/>
-    <mGrayMinimumMaximumEstimated boolean="true"/>
-    <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
-    <contrastEnhancementMinMaxValues>
-      <minMaxEntry>
-        <min>-3.40282e+38</min>
-        <max>3.40282e+38</max>
-      </minMaxEntry>
-    </contrastEnhancementMinMaxValues>
-    <mNoDataValue mValidNoDataValue="true">-9999.000000</mNoDataValue>
-    <singleValuePixelList>
-      <pixelListEntry pixelValue="-9999.000000" percentTransparent="100"/>
-      <pixelListEntry pixelValue="0.000000" percentTransparent="100"/>
-    </singleValuePixelList>
-    <threeValuePixelList>
-      <pixelListEntry red="-9999.000000" blue="-9999.000000" green="-9999.000000" percentTransparent="100"/>
-    </threeValuePixelList>
-    <customColorRamp>
-      <colorRampType>DISCRETE</colorRampType>
-      <colorRampEntry red="255" blue="255" value="5.000000" green="255" label="Null"/>
-      <colorRampEntry red="21" blue="161" value="6.000000" green="220" label="5 - 6"/>
-      <colorRampEntry red="255" blue="0" value="7.000000" green="255" label="6 - 7"/>
-      <colorRampEntry red="255" blue="0" value="8.000000" green="170" label="7 - 8"/>
-      <colorRampEntry red="255" blue="0" value="9.000000" green="102" label="8 - 9"/>
-      <colorRampEntry red="210" blue="45" value="10.000000" green="0" label="9 +"/>
-    </customColorRamp>
-  </rasterproperties>
+<qgis version="2.0.1-Dufour" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+  <pipe>
+    <rasterrenderer opacity="0.443137" alphaBand="0" classificationMax="7.57124" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="3.79334" type="singlebandpseudocolor">
+      <rasterTransparency/>
+      <rastershader>
+        <colorrampshader colorRampType="DISCRETE" clip="0">
+          <item alpha="255" value="5" label="Null" color="#ffffff"/>
+          <item alpha="255" value="6" label="5 - 6" color="#15dca1"/>
+          <item alpha="255" value="7" label="6 - 7" color="#ffff00"/>
+          <item alpha="255" value="8" label="7 - 8" color="#ffaa00"/>
+          <item alpha="255" value="9" label="8 - 9" color="#ff6600"/>
+          <item alpha="255" value="10" label="9 +" color="#d2002d"/>
+        </colorrampshader>
+      </rastershader>
+    </rasterrenderer>
+    <brightnesscontrast brightness="0" contrast="0"/>
+    <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+    <rasterresampler maxOversampling="2"/>
+  </pipe>
+  <blendMode>0</blendMode>
 </qgis>
