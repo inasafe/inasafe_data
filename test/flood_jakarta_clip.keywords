@@ -1,0 +1,6 @@
+category: hazard
+subcategory: flood
+title: A flood in Jakarta like in 2007
+thresholds: (0.3, 0.5, 1.0)
+source: HKV
+unit: m
