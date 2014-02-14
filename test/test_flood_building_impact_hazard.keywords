@@ -1,0 +1,6 @@
+category: hazard
+subcategory: flood
+title: A flood in Jakarta
+source: OpenStreetMap
+test: test_flood_building_impact_function_vector
+unit: wet/dry

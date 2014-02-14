@@ -1,0 +1,5 @@
+category: exposure
+source: OpenStreetMap
+test: test_flood_building_impact_function_vector
+subcategory: structure
+title: OSM Building Polygons
