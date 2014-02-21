@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Kristy Van Putten, AIFDR</author>
+  </metadata>
+
+  <datafile>
+    <filename>flood_poly_clip_flood_test.shp</filename>
+    <checksum>3506466725</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Yewondwossen Assefa</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>ODbL</IP_owner>
+    <IP_info>Clipped from flood_osm_bpbd181113_jakarta www.openstreetmap.org +
+    BPBD DKI Jakarta summary data from the flood on the 18 Jan 2013</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>flood_poly_clip_flood_test.shx</filename>
+    <checksum>3378677209</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Yewondwossen Assefa </accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>ODbL</IP_owner>
+    <IP_info>Clipped from flood_osm_bpbd181113_jakarta www.openstreetmap.org +
+    BPBD DKI Jakarta summary data from the flood on the 18 Jan 2013</IP_info>
+  </datafile>
+
+  <datafile>
+    <filename>flood_poly_clip_flood_test.dbf</filename>
+    <checksum>1744608439</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Yewondwossen Assefa</accountable>
+    <source>Open Street Map (OSM)</source>
+    <IP_owner>ODbL</IP_owner>
+    <IP_info>Clipped from flood_osm_bpbd181113_jakarta www.openstreetmap.org +
+    BPBD DKI Jakarta summary data from the flood on the 18 Jan 2013</IP_info>
+  </datafile>
+
+</ga_license_file>

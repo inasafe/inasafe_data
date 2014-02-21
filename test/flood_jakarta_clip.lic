@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<ga_license_file>
+  <metadata>
+    <author>Kristy Van Putten</author>
+  </metadata>
+
+  <datafile>
+    <filename>flood_jakarta_clip.tif</filename>
+    <checksum>2606190585</checksum>
+    <publishable>Yes</publishable>
+    <accountable>Yewondwossen Assefa</accountable>
+    <source>Marco Hartman, HKV (Marco.Hartman@HKV.NL)</source>
+    <IP_owner>HKV</IP_owner>
+    <IP_info>A clipped version of flood_hkv_currrent_jakarta.asc Dutch
+    assistance with non-structural measures for Jakarta Flood Management",
+    these maps were made within the "Flood Hazard Mapping component of that
+    project. Explicit permission to publish was given by HKV in email to  Ole
+     Nielsen dated 1 February 2012.</IP_info>
+  </datafile>
+
+</ga_license_file>
