@@ -2,5 +2,11 @@ category: postprocessing
 aggregation attribute: KAB_NAME
 subcategory: aggregation
 title: kabupaten jakarta singlepart
+elderly ratio attribute: Use default
+youth ratio default: 0.263
+elderly ratio default: 0.078
+adult ratio attribute: Use default
 female ratio attribute: Use default
+youth ratio attribute: Use default
 female ratio default: 0.5
+adult ratio default: 0.659
