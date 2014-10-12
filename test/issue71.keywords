@@ -1,4 +1,4 @@
-datatype: density
+datatype: count
 category: exposure
 subcategory: populationx
-title: Population density (5kmx5km)
+title: Population Count (5kmx5km)
