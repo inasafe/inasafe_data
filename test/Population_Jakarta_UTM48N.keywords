@@ -1,4 +1,4 @@
-datatype: density
+datatype: count
 category: exposure
 notes: UTM48N
 subcategory: population
