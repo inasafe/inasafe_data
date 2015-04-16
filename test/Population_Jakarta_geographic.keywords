@@ -1,4 +1,5 @@
-category: exposure
-subcategory: population
-datatype: density
+exposure_unit: density
 title: Penduduk Jakarta
+layer_purpose: exposure
+layer_mode: continuous
+exposure: population
