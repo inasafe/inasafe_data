@@ -1,4 +1,6 @@
-datatype: count
-category: exposure
-subcategory: populationx
+exposure_unit: count
+layer_purpose: exposure
+exposure: populationx
 title: Population Count (5kmx5km)
+layer_mode: continuous
+
