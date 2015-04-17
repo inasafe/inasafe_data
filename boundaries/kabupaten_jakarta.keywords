@@ -1,4 +1,5 @@
-category: postprocessing
+layer_purpose: aggregation
+layer_mode: classified
 aggregation attribute: KAB_NAME
 title: kabupaten jakarta
 elderly ratio attribute: Global default
