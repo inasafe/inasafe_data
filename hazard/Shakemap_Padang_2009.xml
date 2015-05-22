@@ -178,7 +178,7 @@ continuous_hazard_unit: mmi
 title: An earthquake in Padang like in 2009
 source: USGS
 layer_mode: continuous
-hazard_category: hazard_scenario
+hazard_category: single_hazard
 ]]>
 </inasafe_keywords>
             </gmd:supplementalInformation>

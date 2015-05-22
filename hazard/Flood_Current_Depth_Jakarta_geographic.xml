@@ -179,7 +179,7 @@ title: A flood in Jakarta like in 2007
 source: HKV
 layer_mode: continuous
 continuous_hazard_unit: metres
-hazard_category: hazard_scenario
+hazard_category: single_hazard 
 ]]>
 </inasafe_keywords>
             </gmd:supplementalInformation>
