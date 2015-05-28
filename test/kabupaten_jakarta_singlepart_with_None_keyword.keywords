@@ -1,12 +1,14 @@
-category: postprocessing
+category: exposure
 aggregation attribute: None
+youth ratio attribute: Global default
 subcategory: aggregation
 title: kabupaten jakarta singlepart with None keyword
-elderly ratio attribute: Global default
+layer_mode: classified
 youth ratio default: 0.263
 elderly ratio default: 0.078
 adult ratio attribute: Global default
 female ratio attribute: Global default
-youth ratio attribute: Global default
+layer_purpose: aggregation
 female ratio default: 0.5
+elderly ratio attribute: Global default
 adult ratio default: 0.659

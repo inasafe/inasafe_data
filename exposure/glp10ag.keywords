@@ -1,5 +1,7 @@
 datatype: density
-category: exposure
-subcategory: population
+layer_purpose: exposure
+exposure: population
 title: People
 source: Center for International Earth Science Information Network (CIESIN)
+exposure_unit: density
+layer_mode: continuous

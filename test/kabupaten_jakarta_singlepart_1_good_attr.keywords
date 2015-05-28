@@ -1,12 +1,14 @@
-category: postprocessing
+category: exposure
 aggregation attribute: KAB_NAME
+youth ratio attribute: Global default
 subcategory: aggregation
 title: kabupaten jakarta singlepart 1 good attr
+adult ratio default: 0.659
 elderly ratio attribute: Global default
 youth ratio default: 0.263
 elderly ratio default: 0.078
 adult ratio attribute: Global default
 female ratio attribute: Global default
-youth ratio attribute: Global default
+layer_purpose: aggregation
 female ratio default: 0.5
-adult ratio default: 0.659
+layer_mode: classified
