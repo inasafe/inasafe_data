@@ -178,7 +178,7 @@ hazard_continuous_unit: metres
 title: A flood in Jakarta like in 2007 but with structural improvements
 source: HKV
 layer_mode: continuous
-hazard_category: single_hazard 
+hazard_category: single_event 
 ]]>
 </inasafe_keywords>
             </gmd:supplementalInformation>
