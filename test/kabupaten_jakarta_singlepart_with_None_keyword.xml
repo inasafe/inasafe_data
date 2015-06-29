@@ -172,20 +172,21 @@
             </gmd:extent>
             <gmd:supplementalInformation>
                 <inasafe_keywords>
-<![CDATA[category: exposure
+<![CDATA[adult ratio attribute: Global default
+adult ratio default: 0.659
 aggregation attribute: None
-youth ratio attribute: Global default
+category: exposure
+elderly ratio attribute: Global default
+elderly ratio default: 0.078
+female ratio attribute: Global default
+female ratio default: 0.5
+keyword_version: 3.2
+layer_mode: classified
+layer_purpose: aggregation
 subcategory: aggregation
 title: kabupaten jakarta singlepart with None keyword
-layer_mode: classified
+youth ratio attribute: Global default
 youth ratio default: 0.263
-elderly ratio default: 0.078
-adult ratio attribute: Global default
-female ratio attribute: Global default
-layer_purpose: aggregation
-female ratio default: 0.5
-elderly ratio attribute: Global default
-adult ratio default: 0.659
 ]]>
 </inasafe_keywords>
             </gmd:supplementalInformation>
