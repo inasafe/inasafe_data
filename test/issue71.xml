@@ -172,11 +172,12 @@
             </gmd:extent>
             <gmd:supplementalInformation>
                 <inasafe_keywords>
-<![CDATA[exposure_unit: count
-layer_purpose: exposure
-exposure: populationx
-title: Population Count (5kmx5km)
+<![CDATA[exposure: populationx
+exposure_unit: count
+keyword_version: 3.2
 layer_mode: continuous
+layer_purpose: exposure
+title: Population Count (5kmx5km)
 ]]>
 </inasafe_keywords>
             </gmd:supplementalInformation>
