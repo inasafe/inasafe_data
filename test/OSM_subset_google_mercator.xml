@@ -56,7 +56,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>Padang WGS84</gco:CharacterString>
+            <gco:CharacterString>OSM Building 900913</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -170,35 +170,38 @@
         <inasafe_keywords/>
         <inasafe>
           <source>
-            <gco:CharacterString/>
+            <gco:CharacterString>osm</gco:CharacterString>
           </source>
           <scale>
             <gco:CharacterString/>
           </scale>
+          <layer_mode>
+            <gco:CharacterString/>
+          </layer_mode>
           <exposure_unit>
             <gco:CharacterString/>
           </exposure_unit>
+          <multipart_polygon>
+            <gco:Boolean/>
+          </multipart_polygon>
           <datatype>
-            <gco:CharacterString>itb</gco:CharacterString>
+            <gco:CharacterString/>
           </datatype>
           <keyword_version>
             <gco:CharacterString>3.2</gco:CharacterString>
           </keyword_version>
-          <layer_geometry>
-            <gco:CharacterString/>
-          </layer_geometry>
-          <structure_class_field>
-            <gco:CharacterString/>
-          </structure_class_field>
           <report>
             <gco:CharacterString/>
           </report>
+          <layer_geometry>
+            <gco:CharacterString/>
+          </layer_geometry>
           <layer_purpose>
             <gco:CharacterString>exposure</gco:CharacterString>
           </layer_purpose>
-          <layer_mode>
-            <gco:CharacterString>classified</gco:CharacterString>
-          </layer_mode>
+          <structure_class_field>
+            <gco:CharacterString/>
+          </structure_class_field>
           <road_class_field>
             <gco:CharacterString/>
           </road_class_field>

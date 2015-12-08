@@ -56,7 +56,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>Padang WGS84</gco:CharacterString>
+            <gco:CharacterString>lembang mmi hazmap</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -169,42 +169,54 @@
       <gmd:supplementalInformation>
         <inasafe_keywords/>
         <inasafe>
-          <source>
+          <hazard_category>
             <gco:CharacterString/>
-          </source>
-          <scale>
+          </hazard_category>
+          <raster_hazard_classification>
             <gco:CharacterString/>
-          </scale>
-          <exposure_unit>
+          </raster_hazard_classification>
+          <continuous_hazard_unit>
+            <gco:CharacterString>mmi</gco:CharacterString>
+          </continuous_hazard_unit>
+          <volcano_name_field>
             <gco:CharacterString/>
-          </exposure_unit>
-          <datatype>
-            <gco:CharacterString>itb</gco:CharacterString>
-          </datatype>
-          <keyword_version>
-            <gco:CharacterString>3.2</gco:CharacterString>
-          </keyword_version>
+          </volcano_name_field>
+          <field>
+            <gco:CharacterString/>
+          </field>
+          <value_map>
+            <gco:Dictionary/>
+          </value_map>
+          <vector_hazard_classification>
+            <gco:CharacterString/>
+          </vector_hazard_classification>
           <layer_geometry>
             <gco:CharacterString/>
           </layer_geometry>
-          <structure_class_field>
+          <hazard>
+            <gco:CharacterString>earthquake</gco:CharacterString>
+          </hazard>
+          <scale>
             <gco:CharacterString/>
-          </structure_class_field>
+          </scale>
           <report>
             <gco:CharacterString/>
           </report>
+          <keyword_version>
+            <gco:CharacterString>3.2</gco:CharacterString>
+          </keyword_version>
+          <datatype>
+            <gco:CharacterString/>
+          </datatype>
+          <source>
+            <gco:CharacterString/>
+          </source>
           <layer_purpose>
-            <gco:CharacterString>exposure</gco:CharacterString>
+            <gco:CharacterString>hazard</gco:CharacterString>
           </layer_purpose>
           <layer_mode>
-            <gco:CharacterString>classified</gco:CharacterString>
-          </layer_mode>
-          <road_class_field>
             <gco:CharacterString/>
-          </road_class_field>
-          <exposure>
-            <gco:CharacterString>structure</gco:CharacterString>
-          </exposure>
+          </layer_mode>
         </inasafe>
       </gmd:supplementalInformation>
     </gmd:MD_DataIdentification>

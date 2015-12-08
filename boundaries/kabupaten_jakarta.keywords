@@ -1,13 +1,14 @@
 layer_purpose: aggregation
+keyword_version: 3.2
 layer_mode: classified
-aggregation attribute: KAB_NAME
+aggregation_attribute: KAB_NAME
 title: kabupaten jakarta
-elderly ratio attribute: Global default
-youth ratio default: 0.263
+elderly_ratio_attribute: Global default
+youth_ratio_default: 0.263
 source: OpenStreetMap
-elderly ratio default: 0.078
-adult ratio attribute: Global default
-female ratio attribute: Global default
-youth ratio attribute: Global default
-female ratio default: 0.5
-adult ratio default: 0.659
+elderly_ratio_default: 0.078
+adult_ratio_attribute: Global default
+female_ratio_attribute: Global default
+youth_ratio_attribute: Global default
+female_ratio_default: 0.5
+adult_ratio_default: 0.659

@@ -56,7 +56,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>Padang WGS84</gco:CharacterString>
+            <gco:CharacterString>building Maumere</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -179,7 +179,7 @@
             <gco:CharacterString/>
           </exposure_unit>
           <datatype>
-            <gco:CharacterString>itb</gco:CharacterString>
+            <gco:CharacterString/>
           </datatype>
           <keyword_version>
             <gco:CharacterString>3.2</gco:CharacterString>
@@ -197,7 +197,7 @@
             <gco:CharacterString>exposure</gco:CharacterString>
           </layer_purpose>
           <layer_mode>
-            <gco:CharacterString>classified</gco:CharacterString>
+            <gco:CharacterString/>
           </layer_mode>
           <road_class_field>
             <gco:CharacterString/>

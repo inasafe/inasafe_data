@@ -56,7 +56,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>Padang WGS84</gco:CharacterString>
+            <gco:CharacterString>Tsunami Building Exposure</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -179,7 +179,7 @@
             <gco:CharacterString/>
           </exposure_unit>
           <datatype>
-            <gco:CharacterString>itb</gco:CharacterString>
+            <gco:CharacterString/>
           </datatype>
           <keyword_version>
             <gco:CharacterString>3.2</gco:CharacterString>
