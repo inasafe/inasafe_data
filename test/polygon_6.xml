@@ -56,7 +56,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>kabupaten jakarta</gco:CharacterString>
+            <gco:CharacterString>polygon 6</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -169,60 +169,33 @@
       <gmd:supplementalInformation>
         <inasafe_keywords/>
         <inasafe>
-          <multipart_polygon>
-            <gco:Boolean/>
-          </multipart_polygon>
-          <adult_ratio_attribute>
-            <gco:CharacterString>Global default</gco:CharacterString>
-          </adult_ratio_attribute>
-          <youth_ratio_attribute>
-            <gco:CharacterString>Global default</gco:CharacterString>
-          </youth_ratio_attribute>
           <scale>
             <gco:CharacterString/>
           </scale>
-          <elderly_ratio_attribute>
-            <gco:CharacterString>Global default</gco:CharacterString>
-          </elderly_ratio_attribute>
-          <source>
-            <gco:CharacterString>OpenStreetMap</gco:CharacterString>
-          </source>
-          <layer_geometry>
-            <gco:CharacterString/>
-          </layer_geometry>
-          <youth_ratio_default>
-            <gco:Float>0.263</gco:Float>
-          </youth_ratio_default>
-          <female_ratio_attribute>
-            <gco:CharacterString>Global default</gco:CharacterString>
-          </female_ratio_attribute>
-          <report>
-            <gco:CharacterString/>
-          </report>
-          <aggregation_attribute>
-            <gco:CharacterString>KAB_NAME</gco:CharacterString>
-          </aggregation_attribute>
-          <keyword_version>
-            <gco:CharacterString>3.2</gco:CharacterString>
-          </keyword_version>
+          <multipart_polygon>
+            <gco:Boolean/>
+          </multipart_polygon>
           <datatype>
             <gco:CharacterString/>
           </datatype>
-          <adult_ratio_default>
-            <gco:Float>0.659</gco:Float>
-          </adult_ratio_default>
-          <elderly_ratio_default>
-            <gco:Float>0.078</gco:Float>
-          </elderly_ratio_default>
-          <layer_purpose>
-            <gco:CharacterString>aggregation</gco:CharacterString>
-          </layer_purpose>
-          <female_ratio_default>
-            <gco:Float>0.5</gco:Float>
-          </female_ratio_default>
+          <keyword_version>
+            <gco:CharacterString>3.2</gco:CharacterString>
+          </keyword_version>
           <layer_mode>
-            <gco:CharacterString>classified</gco:CharacterString>
+            <gco:CharacterString/>
           </layer_mode>
+          <layer_geometry>
+            <gco:CharacterString/>
+          </layer_geometry>
+          <source>
+            <gco:CharacterString/>
+          </source>
+          <report>
+            <gco:CharacterString/>
+          </report>
+          <layer_purpose>
+            <gco:CharacterString/>
+          </layer_purpose>
         </inasafe>
       </gmd:supplementalInformation>
     </gmd:MD_DataIdentification>

@@ -56,7 +56,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>kabupaten jakarta</gco:CharacterString>
+            <gco:CharacterString>Population 2010 clip</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -169,60 +169,45 @@
       <gmd:supplementalInformation>
         <inasafe_keywords/>
         <inasafe>
-          <multipart_polygon>
-            <gco:Boolean/>
-          </multipart_polygon>
-          <adult_ratio_attribute>
-            <gco:CharacterString>Global default</gco:CharacterString>
-          </adult_ratio_attribute>
-          <youth_ratio_attribute>
-            <gco:CharacterString>Global default</gco:CharacterString>
-          </youth_ratio_attribute>
+          <source>
+            <gco:CharacterString/>
+          </source>
           <scale>
             <gco:CharacterString/>
           </scale>
-          <elderly_ratio_attribute>
-            <gco:CharacterString>Global default</gco:CharacterString>
-          </elderly_ratio_attribute>
-          <source>
-            <gco:CharacterString>OpenStreetMap</gco:CharacterString>
-          </source>
-          <layer_geometry>
+          <layer_mode>
             <gco:CharacterString/>
-          </layer_geometry>
-          <youth_ratio_default>
-            <gco:Float>0.263</gco:Float>
-          </youth_ratio_default>
-          <female_ratio_attribute>
-            <gco:CharacterString>Global default</gco:CharacterString>
-          </female_ratio_attribute>
-          <report>
+          </layer_mode>
+          <exposure_unit>
             <gco:CharacterString/>
-          </report>
-          <aggregation_attribute>
-            <gco:CharacterString>KAB_NAME</gco:CharacterString>
-          </aggregation_attribute>
-          <keyword_version>
-            <gco:CharacterString>3.2</gco:CharacterString>
-          </keyword_version>
+          </exposure_unit>
+          <multipart_polygon>
+            <gco:Boolean/>
+          </multipart_polygon>
           <datatype>
             <gco:CharacterString/>
           </datatype>
-          <adult_ratio_default>
-            <gco:Float>0.659</gco:Float>
-          </adult_ratio_default>
-          <elderly_ratio_default>
-            <gco:Float>0.078</gco:Float>
-          </elderly_ratio_default>
+          <keyword_version>
+            <gco:CharacterString>3.2</gco:CharacterString>
+          </keyword_version>
+          <report>
+            <gco:CharacterString/>
+          </report>
+          <layer_geometry>
+            <gco:CharacterString/>
+          </layer_geometry>
           <layer_purpose>
-            <gco:CharacterString>aggregation</gco:CharacterString>
+            <gco:CharacterString>exposure</gco:CharacterString>
           </layer_purpose>
-          <female_ratio_default>
-            <gco:Float>0.5</gco:Float>
-          </female_ratio_default>
-          <layer_mode>
-            <gco:CharacterString>classified</gco:CharacterString>
-          </layer_mode>
+          <structure_class_field>
+            <gco:CharacterString/>
+          </structure_class_field>
+          <road_class_field>
+            <gco:CharacterString/>
+          </road_class_field>
+          <exposure>
+            <gco:CharacterString>population</gco:CharacterString>
+          </exposure>
         </inasafe>
       </gmd:supplementalInformation>
     </gmd:MD_DataIdentification>

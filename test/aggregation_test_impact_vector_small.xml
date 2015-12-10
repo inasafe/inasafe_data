@@ -56,7 +56,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>kabupaten jakarta</gco:CharacterString>
+            <gco:CharacterString>aggregation_test_impact_vector_small</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -172,58 +172,81 @@
           <multipart_polygon>
             <gco:Boolean/>
           </multipart_polygon>
-          <adult_ratio_attribute>
-            <gco:CharacterString>Global default</gco:CharacterString>
-          </adult_ratio_attribute>
-          <youth_ratio_attribute>
-            <gco:CharacterString>Global default</gco:CharacterString>
-          </youth_ratio_attribute>
+          <map_title>
+            <gco:CharacterString/>
+          </map_title>
           <scale>
             <gco:CharacterString/>
           </scale>
-          <elderly_ratio_attribute>
-            <gco:CharacterString>Global default</gco:CharacterString>
-          </elderly_ratio_attribute>
+          <exposure_title>
+            <gco:CharacterString/>
+          </exposure_title>
+          <elapsed_time>
+            <gco:Integer/>
+          </elapsed_time>
           <source>
-            <gco:CharacterString>OpenStreetMap</gco:CharacterString>
+            <gco:CharacterString/>
           </source>
           <layer_geometry>
             <gco:CharacterString/>
           </layer_geometry>
-          <youth_ratio_default>
-            <gco:Float>0.263</gco:Float>
-          </youth_ratio_default>
-          <female_ratio_attribute>
-            <gco:CharacterString>Global default</gco:CharacterString>
-          </female_ratio_attribute>
+          <time_stamp>
+            <gco:CharacterString/>
+          </time_stamp>
+          <hazard_source>
+            <gco:CharacterString/>
+          </hazard_source>
+          <postprocessing_report>
+            <gco:CharacterString/>
+          </postprocessing_report>
+          <legend_units>
+            <gco:CharacterString>(inundated or not inundated)</gco:CharacterString>
+          </legend_units>
+          <user>
+            <gco:CharacterString/>
+          </user>
           <report>
             <gco:CharacterString/>
           </report>
-          <aggregation_attribute>
-            <gco:CharacterString>KAB_NAME</gco:CharacterString>
-          </aggregation_attribute>
+          <hazard_title>
+            <gco:CharacterString/>
+          </hazard_title>
           <keyword_version>
             <gco:CharacterString>3.2</gco:CharacterString>
           </keyword_version>
+          <legend_title>
+            <gco:CharacterString/>
+          </legend_title>
+          <legend_notes>
+            <gco:CharacterString/>
+          </legend_notes>
+          <exposure_source>
+            <gco:CharacterString/>
+          </exposure_source>
           <datatype>
             <gco:CharacterString/>
           </datatype>
-          <adult_ratio_default>
-            <gco:Float>0.659</gco:Float>
-          </adult_ratio_default>
-          <elderly_ratio_default>
-            <gco:Float>0.078</gco:Float>
-          </elderly_ratio_default>
+          <host_name>
+            <gco:CharacterString/>
+          </host_name>
           <layer_purpose>
-            <gco:CharacterString>aggregation</gco:CharacterString>
+            <gco:CharacterString>impact</gco:CharacterString>
           </layer_purpose>
-          <female_ratio_default>
-            <gco:Float>0.5</gco:Float>
-          </female_ratio_default>
+          <impact_table>
+            <gco:CharacterString/>
+          </impact_table>
           <layer_mode>
-            <gco:CharacterString>classified</gco:CharacterString>
+            <gco:CharacterString/>
           </layer_mode>
+          <target_field>
+            <gco:CharacterString>INUNDATED</gco:CharacterString>
+          </target_field>
+          <impact_summary>
+            <gco:CharacterString/>
+          </impact_summary>
         </inasafe>
+        <inasafe_provenance>
+</inasafe_provenance>
       </gmd:supplementalInformation>
     </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
