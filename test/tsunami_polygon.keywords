@@ -1,5 +1,5 @@
-category: hazard
-subcategory: tsunami
-unit: m
-
+keyword_version: 3.2
+layer_purpose: hazard
+hazard: tsunami
+continuous_hazard_unit: metres
 title: tsunami polygon

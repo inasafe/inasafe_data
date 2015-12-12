@@ -1,8 +1,0 @@
-hazard_category: single_event
-title: A flood in Jakarta like in 2007
-thresholds: (0.3, 0.5, 1.0)
-hazard: flood
-continuous_hazard_unit: metres
-source: HKV
-layer_purpose: hazard
-layer_mode: continuous
