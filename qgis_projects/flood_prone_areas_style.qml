@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="1.7.4-Wroclaw" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+<qgis version="2.8.1-Wien" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
   <transparencyLevelInt>255</transparencyLevelInt>
   <renderer-v2 attr="FLOODPRONE" symbollevels="0" type="categorizedSymbol">
     <categories>

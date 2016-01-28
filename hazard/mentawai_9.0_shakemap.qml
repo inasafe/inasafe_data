@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.0.1-Dufour" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+<qgis version="2.8.1-Wien" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
   <pipe>
     <rasterrenderer opacity="0.443137" alphaBand="0" classificationMax="8.37314" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="-0.00150437" type="singlebandpseudocolor">
       <rasterTransparency/>
